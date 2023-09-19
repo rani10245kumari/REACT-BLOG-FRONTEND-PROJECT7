@@ -1,5 +1,11 @@
 * {
-  margin: 0%;
+  margin: 0px;
+}
+
+body {}
+
+.Container {
+  margin: 50px;
 }
 
 a {
@@ -42,14 +48,122 @@ a {
 
 }
 
-.maindiv {
+/*---------HOME PAGE---------*/
+
+
+.MAIN-IMAGE {
+  display: flex;
+  gap: 8rem;
+  height: 80vh;
+  width: 90%;
   position: relative;
-  left: 26%;
+  top: 20vh;
+  left: 0vw;
+}
+
+.GADAR2-img img {
+  height: 74.5vh;
+  width: 54vw;
+  border-radius: 2%;
+
+}
+
+.top-img {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 60vh;
+  width: 30vw;
+}
+
+.top-img img {
+  border-radius: 2%;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  height: 35vh;
+  width: 28vw;
+}
+
+
+
+/*------------the latest---------------*/
+.Latest-head {
+  position: relative;
+  top: 20vh;
+  left: 4vw;
+  font-size: 1.8em;
+  color: #010e14;
+}
+
+
+.Latest-head:hover {
+  text-decoration: underline;
+  color: rgb(71, 135, 138);
+}
+
+.LatestDiv {
+  position: relative;
   top: 30vh;
+  left: 0vw;
+  display: flex;
+  justify-content: space-evenly;
+  height: 90vh;
+  width: 100%;
+}
+
+.latestimage {
+  width: 260px;
+  height: 180px;
+  border-radius: 10px;
+  border: 5px solid teal;
+}
+
+.Latest-txt-head {
+  font-size: 38px;
 
 }
 
-.Latest {
-  position: absolute;
+.Latest-txt {
+  font-size: 22px;
+
+}
+
+.HomeLatest {
+  text-align: center;
+}
+
+.Article-head {
+  font-size: 3rem;
+  position: relative;
+  top: 25vh;
+  left: 0vw;
+
+}
+
+.Articlelist {
+  position: relative;
   top: 35vh;
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+  width: 80vw;
+  gap: 20vh;
 }
+
+.Latestimage {
+  position: absolute;
+  height: 220px;
+  width: 280px;
+  left: 0vw;
+}
+
+.Latestimage2 {
+  height: 260px;
+  width: 300px;
+}
+
+
+
+
+/*------------BOLLYWOOD ---------------*/

@@ -32,7 +32,7 @@ const Hollywood = () => {
                     <div>
                         <h1 className="Latest">Top Post</h1>
                         <div>
-                            {Data.filter((item) => item.id >= 20 && item.id <= 20).map(
+                            {Data.filter((item) => item.id = 20).map(
                                 (item, index) => {
                                     return (
                                         <div key={index}>
