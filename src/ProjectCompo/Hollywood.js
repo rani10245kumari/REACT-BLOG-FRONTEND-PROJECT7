@@ -8,21 +8,21 @@ const Hollywood = () => {
         <>
             <h1 className="headingcompo">Hollywood Article </h1>
             <div className="maindiv">
-                <div className="Articlelist">
+                <div className="Imagemain">
                     {Data.filter((item) => item.id >= 29 && item.id <= 42).map(
                         (item, index) => {
                             return (
                                 <div key={index}>
                                     <NavLink to={`/Navigate/${item.id}`}>
-                                        <div className="Article">
+                                        <div className="Container1">
                                             <img
-                                                className="FitnessimageAll"
+                                                className="AllImages"
                                                 src={item.image}
                                                 alt="Not Found"
                                             />
-                                            <div className="text">
+                                            <div className="AllText">
                                                 <h2>{item.name}</h2>
-                                                <p>{item.text.slice(0, 180)}...</p>
+                                                <p>{item.text.slice(0, 90)}...</p>
                                             </div>
                                         </div>
                                     </NavLink>
@@ -31,22 +31,22 @@ const Hollywood = () => {
                         }
                     )}
                 </div>
-                <div className="Advlatest">
+                <div className="TopMain2">
                     <div>
-                        <h1 className="Latest">Top Post</h1>
+                        <h1 className="Top">Top Post</h1>
                         <div>
-                            {Data.filter((item) => item.id >= 25 && item.id <= 25).map(
+                            {Data.filter((item) => item.id >= 33 && item.id <= 33).map(
                                 (item, index) => {
                                     return (
                                         <div key={index}>
                                             <NavLink to={`/Navigate/${item.id}`}>
-                                                <div className="Article AllOne">
+                                                <div className="ArticleAllOne">
                                                     <img
                                                         className="singleImageForAll"
                                                         src={item.image}
                                                         alt="Not Found"
                                                     />
-                                                    <div className="Articletext Allone1">
+                                                    <div className="ArticletextAllone1">
                                                         <h2>{item.text.slice(0, 60)}</h2>
                                                         <h1>{index + 1}</h1>
                                                     </div>
@@ -57,19 +57,19 @@ const Hollywood = () => {
                                 }
                             )}
                         </div>
-                        {Data.filter((item) => item.id <= 28 && item.id >= 23).map(
+                        {Data.filter((item) => item.id >= 34 && item.id <= 39).map(
                             (item, index) => {
                                 return (
                                     <div key={index} className="toppostdiv">
                                         <NavLink to={`/Navigate/${item.id}`}>
-                                            <div className="Article">
+                                            <div className="Top2series">
                                                 <img
                                                     src={item.image}
                                                     alt="Not Found"
-                                                    height="100px"
+                                                    height="120px"
                                                     width="200px"
                                                 />
-                                                <div className="Articletext">
+                                                <div className="Top2Text">
                                                     <h2>{item.name}</h2>
                                                     <p>{item.text.slice(0, 80)}</p>
                                                 </div>
@@ -83,7 +83,7 @@ const Hollywood = () => {
                                 );
                             }
                         )}
-                        <div className="Advertisement">
+                        <div className="Advertise">
                             <h1>{"Please  for Advertisement"}</h1>
                         </div>
                     </div>

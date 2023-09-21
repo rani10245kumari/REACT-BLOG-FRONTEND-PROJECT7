@@ -1,11 +1,10 @@
-* {
-  margin: 0px;
+.Container {
+  width: 100%;
+  height: auto;
 }
 
-
-
-.Container {
-  margin: 50px;
+body {
+  overflow-x: hidden;
 }
 
 a {
@@ -15,7 +14,7 @@ a {
 
 .head {
   position: relative;
-  height: 20vh;
+  height: 22vh;
   width: 100%;
   background-color: azure;
 }
@@ -24,7 +23,7 @@ a {
   transform: rotate(270deg);
   position: absolute;
   left: 40%;
-  top: 8vh;
+  top: 10vh;
   font-size: 2em;
 }
 
@@ -33,12 +32,12 @@ a {
   font-size: 4em;
   position: absolute;
   left: 45%;
-  top: 4vh;
 }
 
 .navbar {
   height: 16vh;
   width: 100%;
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -53,7 +52,7 @@ a {
 
 .MAIN-IMAGE {
   display: flex;
-  gap: 8rem;
+  gap: 8vw;
   height: 80vh;
   width: 90%;
   position: relative;
@@ -62,8 +61,8 @@ a {
 }
 
 .GADAR2-img img {
-  height: 74.5vh;
-  width: 54vw;
+  height: 75vh;
+  width: 58vw;
   border-radius: 2%;
 
 }
@@ -73,7 +72,7 @@ a {
   flex-direction: column;
   gap: 1.5rem;
   height: 60vh;
-  width: 30vw;
+  width: 35vw;
 }
 
 .top-img img {
@@ -81,8 +80,8 @@ a {
   justify-content: center;
   justify-items: center;
   text-align: center;
-  height: 35vh;
-  width: 28vw;
+  height: 36vh;
+  width: 32vw;
 }
 
 
@@ -116,7 +115,7 @@ a {
   width: 260px;
   height: 180px;
   border-radius: 10px;
-  border: 5px solid teal;
+  box-shadow: 4px 4px 4px rgb(5, 73, 73);
 }
 
 .Latest-txt-head {
@@ -144,36 +143,47 @@ a {
 }
 
 .ArticleContainer {
-  height: 335vh;
+  height: 295vh;
   width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   position: relative;
   top: 30vh;
-
+  gap: 8vw;
 }
 
 .secondcolum {
-  position: absolute;
   display: flex;
   flex-direction: column;
-  height: 180vh;
-  width: 60vw;
-  gap: 10vh;
+  flex-wrap: wrap;
+  height: 290vh;
+  width: 51vw;
+  gap: 5vh;
 }
 
+.Article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: 3px 3px 3px 3px teal;
+  height: 32vh;
+  width: 45vw;
+
+}
+
+
 .Articleimages {
-  position: absolute;
-  height: 200px;
-  width: 260px;
-  left: 0vw;
+  height: 203px;
+  width: 240px;
+  box-shadow: 2px 2px 2px 2px gray;
 }
 
 .Articletext {
-  position: relative;
-  left: 23vw;
+  position: absolute;
   font-size: 20px;
-  width: 260px;
+  left: 21vw;
 }
 
 .Latestimage2 {
@@ -183,65 +193,83 @@ a {
 
 .largeimg {
   height: 60vh;
-  width: 50vw;
+  width: 45vw;
 }
 
 /*-----------advertisment coulmn-----------------*/
 
 .thirdcolumn {
-  position: absolute;
+  /* position: absolute; */
   height: 400vh;
-  width: 35vw;
+  width: 38vw;
   display: flex;
   flex-direction: column;
-  gap: 2vh;
-  left: 55vw;
+  /* gap: 2vh; */
+  left: 54vw;
 
 }
 
 .Advertisement {
-  position: absolute;
-  height: 110vh;
+  width: 100%;
+  height: 115vh;
+  text-align: center;
+  color: gray;
   border: 2px solid rgb(80, 79, 79);
 }
 
+/*----------------TOP POST------------------------*/
+
 .Toppost {
-  position: absolute;
-  height: 240vh;
-  top: 120vh;
+  height: 175vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .Toppost h1 {
   font-size: 45px;
 }
 
-.Article {
-  position: relative;
+.toppostArticle {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  height: 34vh;
+  box-shadow: 2px 2px 2px rgb(34, 32, 32);
 }
 
 .toparticle {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   position: relative;
-  top: 8vh;
-
 }
 
+
 .textt {
-  position: relative;
-  left: 23vw;
-  font-size: 21px;
-  width: 260px;
+  font-size: 20px;
+  width: 20vw;
+  position: absolute;
+  left: 18vw;
 }
 
 .number {
-  position: relative;
-  left: 22vw;
+  position: absolute;
+  left: 20vw;
+  top: 20vh;
 }
 
 /*-------------------latest stories---------------*/
 
+
+.Storiehead {
+  position: relative;
+  top: 28vh;
+}
+
 .StoriesDiv {
   position: relative;
-  top: 14vh;
+  top: 35vh;
   left: 0vw;
   display: flex;
   justify-content: space-evenly;
@@ -251,6 +279,10 @@ a {
 
 .last {
   font-size: 22px;
+}
+
+.last p {
+  width: 25vw;
 }
 
 
@@ -265,23 +297,129 @@ a {
 }
 
 .maindiv {
-  position: absolute;
-  top: 60vh;
+  display: flex;
+  gap: 5vw;
+  position: relative;
+  top: 40vh;
   left: 0px;
+
 }
 
 .Imagemain {
+  height: 500vh;
+  width: 45vw;
+}
+
+.Container1 {
   position: relative;
   display: flex;
-  flex-direction: column;
-  height: 180vh;
-  width: 60vw;
+  flex-direction: row;
   gap: 10vh;
-  left: 0px;
+  flex-wrap: wrap;
+  box-shadow: 3px 3px 3px 3px rgb(15, 92, 92);
+  height: 35vh;
+  width: 45vw;
 }
 
 .AllImages {
-  position: absolute;
-  height: 220px;
+  height: 215px;
   width: 270px;
+}
+
+.AllText {
+  position: absolute;
+  font-size: 20px;
+  left: 22vw;
+}
+
+/*--------------------Top main2 RIGHT---------------*/
+
+/* .TopMain2 {
+  position: relative;
+
+} */
+
+.ArticleAllOne {
+  display: flex;
+  flex-direction: column;
+}
+
+.singleImageForAll {
+  height: 50vh;
+  width: 100%;
+}
+
+.Top2Text {
+  width: 30vw;
+  height: 20vh;
+}
+
+.ArticletextAllone1 {
+  font-size: 22px;
+  display: flex;
+
+}
+
+.bigno {
+  font-size: 56px;
+}
+
+/*-----TOP2 KI SERIES-------------*/
+
+.toppostdiv {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 3px 3px 3px orchid;
+  height: 20vh;
+}
+
+.Top2series {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.Top2Text {
+  width: 28vw;
+  font-size: 18px;
+}
+
+.Advertise {
+  position: relative;
+  top: 20vh;
+  box-shadow: 3px 3px 3px 3px gray;
+  height: 219vh;
+  color: rgb(87, 86, 86);
+}
+
+
+
+
+/*---------------------FOOTER DESIGN----------*/
+footer {
+  width: 100%;
+  background-color: #c35353;
+  color: white;
+  text-align: center;
+  margin-top: 40vh;
+}
+
+.leftNav {
+  display: flex;
+  flex-direction: row;
+}
+
+.fa-brands {
+  color: #010e14;
+}
+
+.NavIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavIcons h2 {
+  font-size: 24px;
+  margin: 0 5px;
 }

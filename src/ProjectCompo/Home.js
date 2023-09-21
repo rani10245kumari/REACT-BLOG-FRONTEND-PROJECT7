@@ -55,11 +55,7 @@ const Homecom = () => {
                 <div className="secondcolum">
                     {Data.filter((item) => item.id >= 72 && item.id <= 77).map(
                         (item, index) => {
-                            const wordnext2 = item.name?.split(" ") || [];
-                            const displayText3 =
-                                wordnext2.length < 20
-                                    ? `${wordnext2.slice(0, 20).join(" ")}...`
-                                    : item.name || "";
+
                             return (
                                 <div key={index}>
                                     <NavLink to={`/Navigate/${item.id}`}>
@@ -70,8 +66,8 @@ const Homecom = () => {
                                                 alt="Not Found"
                                             />
                                             <div className="Articletext">
-                                                <h1>{displayText3}</h1>
-                                                <p className="text">{item.text?.slice(0, 120) || ""}</p>
+                                                <h1>{item.name}</h1>
+                                                <p className="text">{item.text.slice(0, 80)}</p>
                                             </div>
                                         </div>
                                     </NavLink>
@@ -95,13 +91,9 @@ const Homecom = () => {
                         <h1>Top Post</h1>
                         {Data.filter((item) => item.id >= 72 && item.id <= 75).map(
                             (item, index) => {
-                                const wordnext = item.text?.split(" ") || [];
-                                const displayText2 =
-                                    wordnext.length < 5
-                                        ? `${wordnext.slice(0, 5).join(" ")}...`
-                                        : item.name || "";
+
                                 return (
-                                    <div key={index}>
+                                    <div key={index} className="toppostArticle">
                                         <NavLink to={`/Navigate/${item.id}`}>
                                             <div className="toparticle">
                                                 <img
@@ -111,8 +103,7 @@ const Homecom = () => {
                                                 />
                                                 <div className="textt">
                                                     <h3>{item.name}</h3>
-                                                    <p>{displayText2}</p>
-                                                    <p>{item.text?.slice(0, 40) || ""}</p>
+                                                    <p>{item.text.slice(0, 60)}</p>
                                                 </div>
 
                                                 <div className="number">
@@ -129,7 +120,7 @@ const Homecom = () => {
             </div>
 
 
-            <h1 className="Latest">Latest Stories</h1>
+            <h1 className="Storiehead">Latest Stories</h1>
             <div className="StoriesDiv">
                 {Data.filter((item) => item.id % 10 === 0 && item.id <= 30).map(
                     (item, index) => {
@@ -143,7 +134,7 @@ const Homecom = () => {
                                     />
                                     <div className="last">
                                         <h2>{item.name}</h2>
-                                        <p>{item.text.slice(0, 135)}..</p>
+                                        <p>{item.text.slice(0, 95)}..</p>
                                     </div>
                                 </NavLink>
                             </div>

@@ -28,14 +28,14 @@ const ConntextStore = (props) => {
             id: 4,
             name: "Chowmin",
             category: "Food",
-            image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fchow-mein&psig=AOvVaw03o71xHvixDD5vLTnMWE9j&ust=1695056633402000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMjSspeQsoEDFQAAAAAdAAAAABAJ",
+            image: "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2023/Archanas_Kitchen_Millet_Hakka_Noodles_Chowmein_Recipe-16.jpg",
             text: "the term chow mein refers to fried noodles. More specifically, there are two main types of chow mein dishes: Steamed chow mein: In steamed chow mein, the noodles are initially flash-fried, then stir-fried while being tossed with additional ingredients like meat or vegetables and coated in a light sauce.",
         },
         {
             id: 5,
             name: "Cake",
             category: "Food",
-            image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cakehut.in%2Fcakes%2Fdouble-chocolate-cake&psig=AOvVaw337L8FXPhXrnnoPvjcJnoq&ust=1695056783861000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNCI1t2QsoEDFQAAAAAdAAAAABAE",
+            image: "https://pic.warmoven.in/catalog/product/cache/4e14bcb566d25893ae7201d4dbdc22fd/image/234187ae/strawberry-cake.jpg",
             text: "  It is a derivation of 'kaka', an Old Norse word. Medieval European bakers often made fruitcakes and gingerbread.",
         },
         {
@@ -134,7 +134,7 @@ const ConntextStore = (props) => {
             id: 19,
             name: "Chennai Express",
             category: "Bollywood",
-            image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt2112124%2F&psig=AOvVaw0pBzVY2XOrh_U2tnnuStat&ust=1695058709435000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCICZ8fOXsoEDFQAAAAAdAAAAABAJ",
+            image: "https://static.toiimg.com/thumb/msid-85147219,width-1280,resizemode-4/85147219.jpg",
             text: "Chennai Express is a 2013 Indian action-comedy film directed by Rohit Shetty. It stars Shah Rukh Khan and Deepika Padukone and is known for its entertaining sequences."
         },
         {
@@ -408,7 +408,7 @@ const ConntextStore = (props) => {
             id: 58,
             name: " Internet of Things (IoT)",
             category: "Technology",
-            image: "",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMsOQEek3os5lp6KYzSPuITesyCTnGmBt6nw&usqp=CAU",
             text: "IoT connects everyday objects to the internet, enabling smart homes, cities, and industries through data-driven automation.",
 
         },
@@ -416,7 +416,7 @@ const ConntextStore = (props) => {
             id: 59,
             name: "5G Technology",
             category: "Technology",
-            image: "",
+            image: "https://m.economictimes.com/thumb/msid-101707508,width-2123,height-1413,resizemode-4,imgsize-146486/ericssons-advice-for-airtel-reliance-jio-on-how-to-monetise-5g.jpg",
             text: "5G technology revolutionizes wireless communication, providing faster speeds and low latency for a wide range of applications.",
         },
         {

@@ -1,0 +1,39 @@
+body {
+    border: 2px solid green;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(83, 82, 82);
+}
+
+.head {
+    /* height: 20vh;
+    width: 100%;
+    background-color: azure; */
+}
+
+.The {
+    /* transform: rotate(270deg);
+    text-align: center;
+    font-size: 30px; */
+}
+
+.Siren {
+    /* text-align: center;
+    font-size: 4em; */
+}
+
+.navbar {
+    /* height: 16vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 2em;
+    background-color: antiquewhite;
+    text-decoration: none; */
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
