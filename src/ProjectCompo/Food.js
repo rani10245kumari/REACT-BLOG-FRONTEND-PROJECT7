@@ -5,7 +5,7 @@ const FoodCom = () => {
     console.log(Data);
     return (
         <>
-            <h1 className="Latest">Food </h1>
+            <h1 className="headingcompo">Food </h1>
             <div className="maindiv">
                 <div className="Articlelist">
                     {Data.filter((item) => item.id >= 1 && item.id <= 14).map(

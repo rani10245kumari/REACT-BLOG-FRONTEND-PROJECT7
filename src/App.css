@@ -2,7 +2,7 @@
   margin: 0px;
 }
 
-body {}
+
 
 .Container {
   margin: 50px;
@@ -104,7 +104,7 @@ a {
 
 .LatestDiv {
   position: relative;
-  top: 30vh;
+  top: 28vh;
   left: 0vw;
   display: flex;
   justify-content: space-evenly;
@@ -133,6 +133,8 @@ a {
   text-align: center;
 }
 
+/*------LATEST ARTICLE SECTION----------------*/
+
 .Article-head {
   font-size: 3rem;
   position: relative;
@@ -141,21 +143,37 @@ a {
 
 }
 
-.Articlelist {
-  position: relative;
-  top: 35vh;
+.ArticleContainer {
+  height: 335vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  height: 200vh;
-  width: 80vw;
-  gap: 20vh;
+  flex-direction: row;
+  position: relative;
+  top: 30vh;
+
 }
 
-.Latestimage {
+.secondcolum {
   position: absolute;
-  height: 220px;
-  width: 280px;
+  display: flex;
+  flex-direction: column;
+  height: 180vh;
+  width: 60vw;
+  gap: 10vh;
+}
+
+.Articleimages {
+  position: absolute;
+  height: 200px;
+  width: 260px;
   left: 0vw;
+}
+
+.Articletext {
+  position: relative;
+  left: 23vw;
+  font-size: 20px;
+  width: 260px;
 }
 
 .Latestimage2 {
@@ -163,7 +181,107 @@ a {
   width: 300px;
 }
 
+.largeimg {
+  height: 60vh;
+  width: 50vw;
+}
+
+/*-----------advertisment coulmn-----------------*/
+
+.thirdcolumn {
+  position: absolute;
+  height: 400vh;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  left: 55vw;
+
+}
+
+.Advertisement {
+  position: absolute;
+  height: 110vh;
+  border: 2px solid rgb(80, 79, 79);
+}
+
+.Toppost {
+  position: absolute;
+  height: 240vh;
+  top: 120vh;
+}
+
+.Toppost h1 {
+  font-size: 45px;
+}
+
+.Article {
+  position: relative;
+}
+
+.toparticle {
+  position: relative;
+  top: 8vh;
+
+}
+
+.textt {
+  position: relative;
+  left: 23vw;
+  font-size: 21px;
+  width: 260px;
+}
+
+.number {
+  position: relative;
+  left: 22vw;
+}
+
+/*-------------------latest stories---------------*/
+
+.StoriesDiv {
+  position: relative;
+  top: 14vh;
+  left: 0vw;
+  display: flex;
+  justify-content: space-evenly;
+  height: 90vh;
+  width: 100%;
+}
+
+.last {
+  font-size: 22px;
+}
 
 
 
-/*------------BOLLYWOOD ---------------*/
+
+
+/*------------BOLLYWOOD ----------------------*/
+
+.headingcompo {
+  position: absolute;
+  top: 40vh;
+}
+
+.maindiv {
+  position: absolute;
+  top: 60vh;
+  left: 0px;
+}
+
+.Imagemain {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 180vh;
+  width: 60vw;
+  gap: 10vh;
+  left: 0px;
+}
+
+.AllImages {
+  position: absolute;
+  height: 220px;
+  width: 270px;
+}

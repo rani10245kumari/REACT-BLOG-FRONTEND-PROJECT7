@@ -51,74 +51,27 @@ const Homecom = () => {
                 )}
             </div>
             <h1 className="Article-head">The Latest Article</h1>
-
-            <div className="Articlelist">
-                {Data.filter((item) => item.id >= 72 && item.id <= 77).map(
-                    (item, index) => {
-                        const wordnext2 = item.name?.split(" ") || [];
-                        const displayText3 =
-                            wordnext2.length < 20
-                                ? `${wordnext2.slice(0, 20).join(" ")}...`
-                                : item.name || "";
-                        return (
-                            <div key={index}>
-                                <NavLink to={`/Navigate/${item.id}`}>
-                                    <div className="Article">
-                                        <img
-                                            className="Latestimage"
-                                            src={item.image}
-                                            alt="Not Found"
-                                        />
-                                        <div className="Articletext">
-                                            <h1>{displayText3}</h1>
-                                            <p className="text">{item.text?.slice(0, 120) || ""}</p>
-                                        </div>
-                                    </div>
-                                </NavLink>
-                            </div>
-                        );
-                    }
-                )}
-                <div>
-                    <h1>Load_More</h1>
-                </div>
-                {/* <img
-                    className="divinner"
-                    src="https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2023/07/Jawan-Shah-Rukh-Khan.jpg?ssl=1&quality=80&w=f"
-                    alt="not found"
-                /> */}
-            </div>
-            <div className="Advlatest">
-                <div className="Advertisement">
-                    <h1>{"Please for Advertisement"}</h1>
-                </div>
-
-                <div>
-                    <h1 className="Latest">Top Post</h1>
-                    {Data.filter((item) => item.id >= 73 && item.id <= 76).map(
+            <div className="ArticleContainer">
+                <div className="secondcolum">
+                    {Data.filter((item) => item.id >= 72 && item.id <= 77).map(
                         (item, index) => {
-                            const wordnext = item.text?.split(" ") || [];
-                            const displayText2 =
-                                wordnext.length < 5
-                                    ? `${wordnext.slice(0, 5).join(" ")}...`
+                            const wordnext2 = item.name?.split(" ") || [];
+                            const displayText3 =
+                                wordnext2.length < 20
+                                    ? `${wordnext2.slice(0, 20).join(" ")}...`
                                     : item.name || "";
                             return (
                                 <div key={index}>
                                     <NavLink to={`/Navigate/${item.id}`}>
                                         <div className="Article">
                                             <img
-                                                className="Latestimage2"
+                                                className="Articleimages"
                                                 src={item.image}
                                                 alt="Not Found"
                                             />
-                                            <div className="text2">
-                                                <h3>{item.name}</h3>
-                                                <p>{displayText2}</p>
-                                                <p>{item.text?.slice(0, 40) || ""}</p>
-                                            </div>
-
-                                            <div className="number">
-                                                <h1>{index + 1}</h1>
+                                            <div className="Articletext">
+                                                <h1>{displayText3}</h1>
+                                                <p className="text">{item.text?.slice(0, 120) || ""}</p>
                                             </div>
                                         </div>
                                     </NavLink>
@@ -126,12 +79,58 @@ const Homecom = () => {
                             );
                         }
                     )}
+
+                    <img
+                        className="largeimg"
+                        src="https://w0.peakpx.com/wallpaper/346/993/HD-wallpaper-prabhas-and-anushka-shetty-baahubali.jpg"
+                        alt="not found"
+                    />
+                </div>
+                <div className="thirdcolumn">
+                    <div className="Advertisement">
+                        <h1>{"Please for Advertisement"}</h1>
+                    </div>
+
+                    <div className="Toppost">
+                        <h1>Top Post</h1>
+                        {Data.filter((item) => item.id >= 72 && item.id <= 75).map(
+                            (item, index) => {
+                                const wordnext = item.text?.split(" ") || [];
+                                const displayText2 =
+                                    wordnext.length < 5
+                                        ? `${wordnext.slice(0, 5).join(" ")}...`
+                                        : item.name || "";
+                                return (
+                                    <div key={index}>
+                                        <NavLink to={`/Navigate/${item.id}`}>
+                                            <div className="toparticle">
+                                                <img
+                                                    className="Articleimages"
+                                                    src={item.image}
+                                                    alt="Not Found"
+                                                />
+                                                <div className="textt">
+                                                    <h3>{item.name}</h3>
+                                                    <p>{displayText2}</p>
+                                                    <p>{item.text?.slice(0, 40) || ""}</p>
+                                                </div>
+
+                                                <div className="number">
+                                                    <h1>{index + 1}</h1>
+                                                </div>
+                                            </div>
+                                        </NavLink>
+                                    </div>
+                                );
+                            }
+                        )}
+                    </div>
                 </div>
             </div>
 
 
             <h1 className="Latest">Latest Stories</h1>
-            <div className="LatestDiv">
+            <div className="StoriesDiv">
                 {Data.filter((item) => item.id % 10 === 0 && item.id <= 30).map(
                     (item, index) => {
                         return (
@@ -142,7 +141,7 @@ const Homecom = () => {
                                         src={item.image}
                                         alt="Not Found"
                                     />
-                                    <div className="text">
+                                    <div className="last">
                                         <h2>{item.name}</h2>
                                         <p>{item.text.slice(0, 135)}..</p>
                                     </div>

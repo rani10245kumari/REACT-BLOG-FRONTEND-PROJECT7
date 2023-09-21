@@ -18,7 +18,7 @@ function RoutingCom() {
             </div>
             <div className='navbar'>
                 <Router >
-                    <Link to="/Home">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/Hollywood">Hollywood</Link>
                     <Link to="/Bollywood">Bollywood</Link>
                     <Link to="/Food">Food</Link>
@@ -26,7 +26,7 @@ function RoutingCom() {
                     <Link to="/Fitness">Fitness</Link>
                     <ConntextStore>
                         <Routes>
-                            <Route path='/Home' element={<Homecom />}></Route>
+                            <Route path='/' element={<Homecom />}></Route>
                             <Route path='/Bollywood' element={<Bollywood />}></Route>
                             <Route path='/Hollywood' element={<Hollywood />}></Route>
                             <Route path='/Food' element={<FoodCom />} />

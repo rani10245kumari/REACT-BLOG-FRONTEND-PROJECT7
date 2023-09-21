@@ -5,7 +5,7 @@ const Technology = () => {
     console.log(Data);
     return (
         <>
-            <h1 className="Latest">Technology Article </h1>
+            <h1 className="headingcompo">Technology Article </h1>
             <div className="maindiv">
                 <div className="Articlelist">
                     {Data.filter((item) => item.id >= 57 && item.id <= 70).map(

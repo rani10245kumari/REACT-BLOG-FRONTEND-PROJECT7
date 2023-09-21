@@ -5,7 +5,7 @@ const Fitness = () => {
     console.log(Data);
     return (
         <>
-            <h1 className="Latest">Fitness </h1>
+            <h1 className="headingcompo">Fitness </h1>
             <div className="maindiv">
                 <div className="Articlelist">
                     {Data.filter((item) => item.id >= 43 && item.id <= 56).map(

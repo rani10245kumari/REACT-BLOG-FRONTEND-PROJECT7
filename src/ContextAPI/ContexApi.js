@@ -101,6 +101,7 @@ const ConntextStore = (props) => {
             image: "https://www.funfoodfrolic.com/wp-content/uploads/2020/09/Tomato-Pasta-Thumbnail.jpg",
             text: "Pasta is an Italian staple made from wheat flour and water. It comes in various shapes and is often served with a variety of sauces."
         },
+
         {
             id: 15,
             name: "Ready",
@@ -500,58 +501,102 @@ const ConntextStore = (props) => {
         {
             id: 71,
             name: "Dhosa",
-            category: "Food",
+            category: "Home",
             image: "https://e1.pxfuel.com/desktop-wallpaper/123/90/desktop-wallpaper-appetizer-healthy-masala-dosa.jpg",
             text: "A dosa is a thin savory pancake in South Indian cuisine made from a fermented batter of ground black lentils and rice. Dosas are served hot, often with chutney and sambar. Dosa is a signature dish in South India and Sri Lanka, and is popularly served in their respective restaurants around the world",
         },
         {
             id: 72,
             name: "gulabjamun",
-            category: "Food",
+            category: "Home",
             image: "https://www.shutterstock.com/shutterstock/photos/1842271261/display_1500/stock-photo-indian-sweet-gulab-jamun-closeup-view-1842271261.jpg",
             text: "Gulab jamun is a sweet confectionery or dessert, originating in Persia and then later introduced to the Indian subcontinent. It is popular in India, Pakistan as well as Myanmar.",
         },
         {
             id: 73,
             name: "Burger",
-            category: "Food",
+            category: "Home",
             image: "https://www.thecookierookie.com/wp-content/uploads/2023/04/featured-stovetop-burgers-recipe.jpg",
             text: "A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat, typically beef—placed inside a sliced bun or bread roll. ",
         },
+
         {
             id: 74,
             name: "Dhadak",
-            category: "Bollywood",
+            category: "Home",
             image: "https://media.vogue.in/wp-content/uploads/2019/06/Dhadak-featured-option-1920x1080.jpg",
             text: "Madhu and Parthavi fall in love but face opposition from their families due to their differing social status. In a bid to unite, they elope but Parthavi's father and brother stay on their tail.",
         },
         {
             id: 75,
             name: "PK",
-            category: "Bollywood",
+            category: "Home",
             image: "https://ecx.images-amazon.com/images/I/61dvTt4e4NL.jpg",
             text: "Produced on a budget of ₹1.22 billion, PK was the first Indian film to gross more than ₹7 billion and US$100 million worldwide. At the time of its release, it emerged as the highest-grossing Indian film of all time. The film's final worldwide gross was ₹769.89 crore (US$118.92 million).An innocent alien lands on Earth but loses his communication device. He meets Jaggu, a heartbroken reporter, and tries to find his device. With time, he raises many thought-provoking questions.",
         },
         {
             id: 76,
             name: "Gangubai",
-            category: "Bollywood",
+            category: "Home",
             image: "https://i.ytimg.com/vi/W7tV197RnXg/hqdefault.jpg",
             text: "the film grossed ₹153.69 crore at the domestic box office and ₹209.77 globally emerging as a major commercial success. Numerous publications listed Gangubai Kathiawadi and Bhatt's performance in the film on various year-end best films and performances lists of 2022.",
         },
         {
             id: 77,
             name: "Barfi",
-            category: "Bollywood",
+            category: "Home",
             image: "https://www.mygoodtimes.in/wp-content/uploads/2019/09/Barfi-e1568293729597.jpg",
             text: "Barfi forms a special bond with Jhilmil, a girl with autism. When Barfi's old flame walks back into his life, it causes misunderstandings between Jhilmil and him.",
         },
         {
             id: 78,
             name: "Mother India",
-            category: "Bollywood",
+            category: "Home",
             image: "https://m.media-amazon.com/images/M/MV5BNmM5NzkzNjUtMjJlZC00ZmY0LWJlMjUtN2QyY2IyZDIyYjUwXkEyXkFqcGdeQXVyODMyODMxNDY@._V1_.jpg",
             text: "Mother India played a key role in shaping the young Republic of India's national identity in its early years following independence from the British Raj, due to how the film was able to successfully convey a sense of Indian nationalism to the urban and rural masses.",
+        },
+
+        {
+            id: 79,
+            category: "Technology",
+            name: "Space Exploration and Mars Missions",
+            image: "https://cdn.mos.cms.futurecdn.net/tsRQNTJ8MhRUm32taXTdjm.jpg",
+            text: "Learn about recent developments in space exploration, including Mars missions, space tourism, and the search for extraterrestrial life.This article explores recent breakthroughs in the field of quantum computing, including advancements in qubits and quantum algorithms, and their potential to revolutionize computing as we know it.Since then, AI has been used to help sequence RNA for vaccines and model human speech, technologies that rely on model- and algorithm-based machine learning and increasingly focus on perception, reasoning and generalization. With innovations like these, AI has re-taken center stage like never before — and it won’t cede the spotlight anytime soon.Manufacturing has been benefiting from AI for years. With AI-enabled robotic arms and other manufacturing bots dating back to the 1960s and 1970s, the industry has adapted well to the powers of AI. These industrial robots typically work alongside humans to perform a limited range of tasks like assembly and stacking, and predictive analysis sensors keep equipment running smoothly.Journalism is harnessing AI too, and will continue to benefit from it. One example can be seen in The Associated Press’ use of Automated Insights, which produces thousands of earning reports stories per year. But as generative AI writing tools, such as ChatGPT, enter the market, questions about their use in journalism abound."
+        },
+        {
+            id: 80,
+            category: "Technology",
+            name: "Robotics and Automation Trends",
+            image: "https://3.imimg.com/data3/IT/MI/MY-17635245/robotics-technology-srt-3-months-500x500.png",
+            text: "Explore the latest trends in robotics and automation technologies, from self-driving cars to robotic healthcare assistants and manufacturing automation.This article explores recent breakthroughs in the field of quantum computing, including advancements in qubits and quantum algorithms, and their potential to revolutionize computing as we know it.Since then, AI has been used to help sequence RNA for vaccines and model human speech, technologies that rely on model- and algorithm-based machine learning and increasingly focus on perception, reasoning and generalization. With innovations like these, AI has re-taken center stage like never before — and it won’t cede the spotlight anytime soon.Manufacturing has been benefiting from AI for years. With AI-enabled robotic arms and other manufacturing bots dating back to the 1960s and 1970s, the industry has adapted well to the powers of AI. These industrial robots typically work alongside humans to perform a limited range of tasks like assembly and stacking, and predictive analysis sensors keep equipment running smoothly.Journalism is harnessing AI too, and will continue to benefit from it. One example can be seen in The Associated Press’ use of Automated Insights, which produces thousands of earning reports stories per year. But as generative AI writing tools, such as ChatGPT, enter the market, questions about their use in journalism abound."
+        },
+        {
+            id: 81,
+            category: "Technology",
+            name: "Blockchain Technology and Cryptocurrency",
+            image: "https://www.openaccessgovernment.org/wp-content/uploads/2019/10/dreamstime_xxl_126050352.jpg",
+            text: "Explore the fundamentals of blockchain technology and the impact of cryptocurrencies like Bitcoin on the financial and technology sectors.This article explores recent breakthroughs in the field of quantum computing, including advancements in qubits and quantum algorithms, and their potential to revolutionize computing as we know it.Since then, AI has been used to help sequence RNA for vaccines and model human speech, technologies that rely on model- and algorithm-based machine learning and increasingly focus on perception, reasoning and generalization. With innovations like these, AI has re-taken center stage like never before — and it won’t cede the spotlight anytime soon.Manufacturing has been benefiting from AI for years. With AI-enabled robotic arms and other manufacturing bots dating back to the 1960s and 1970s, the industry has adapted well to the powers of AI. These industrial robots typically work alongside humans to perform a limited range of tasks like assembly and stacking, and predictive analysis sensors keep equipment running smoothly.Journalism is harnessing AI too, and will continue to benefit from it. One example can be seen in The Associated Press’ use of Automated Insights, which produces thousands of earning reports stories per year. But as generative AI writing tools, such as ChatGPT, enter the market, questions about their use in journalism abound."
+        },
+        {
+            id: 82,
+            category: "Home",
+            name: "Healthy Habits for a Balanced Lifestyle",
+            image: "https://possible.in/wp-content/uploads/2020/11/balanced-diet-chart-1-1024x683.jpg",
+            text: "Explore healthy habits that contribute to a bscover practices that promote overall well-being."
+        },
+        {
+            id: 83,
+            category: "Fitness",
+            title: "Nutrition Myths Debunked",
+            image: "https://www.nocofitness.com/wp-content/uploads/2018/11/Nutrition-Myths-Debunked.jpg",
+            content: "Separate fact from fiction as we debunk common nutrition myths. Learn about proper dietary choices and get evidence-based insights into maintaining a healthy diet.Flexibility workouts, such as stretching, don’t directly contribute to heart health. What they do is benefit musculoskeletal health, which enables you to stay flexible and free from joint pain, cramping and other muscular issues. That flexibility is a critical part of being able to maintain aerobic exercise and resistance training, says Stewart."
+        },
+        {
+            id: 84,
+            category: "Fitness",
+            title: "Mind-Body Connection in Fitness",
+            image: "https://www.hhhealth.com/wp-content/uploads/2022/07/AdobeStock_295859885-1024x480.jpeg",
+            content: "Understand the mind-body connection in fitness and how mental well-being influences physical performance. Learn techniques for enhancing focus and motivation during workouts.Flexibility workouts, such as stretching, don’t directly contribute to heart health. What they do is benefit musculoskeletal health, which enables you to stay flexible and free from joint pain, cramping and other muscular issues. That flexibility is a critical part of being able to maintain aerobic exercise and resistance training, says Stewart."
         },
 
 
