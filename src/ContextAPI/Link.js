@@ -44,8 +44,8 @@ function RoutingCom() {
 
                     </Router>
                     <footer>
-                        <div className="NavIcons">
-                            <div className="leftNav">
+                        <div className="Nav">
+                            <div className="Navb">
                                 <p>Home</p>
                                 <p>About</p>
                                 <p>Contact</p>

@@ -369,8 +369,9 @@ a {
 .toppostdiv {
   display: flex;
   flex-direction: row;
-  box-shadow: 3px 3px 3px orchid;
+  box-shadow: 4px 4px 4px orchid;
   height: 20vh;
+  width: 46vw;
 }
 
 .Top2series {
@@ -388,7 +389,8 @@ a {
   position: relative;
   top: 20vh;
   box-shadow: 3px 3px 3px 3px gray;
-  height: 219vh;
+  height: 244vh;
+  width: 46vw;
   color: rgb(87, 86, 86);
 }
 
@@ -398,24 +400,20 @@ a {
 /*---------------------FOOTER DESIGN----------*/
 footer {
   width: 100%;
-  background-color: #c35353;
+  background-color: #3a8085;
   color: white;
   text-align: center;
   margin-top: 40vh;
 }
 
-.leftNav {
+.Navb {
   display: flex;
   flex-direction: row;
 }
 
-.fa-brands {
-  color: #010e14;
-}
-
-.NavIcons {
+.Nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
