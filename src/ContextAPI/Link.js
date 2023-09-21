@@ -51,36 +51,7 @@ function RoutingCom() {
                                 <p>Contact</p>
                             </div>
                             <p className="footer-content">&copy; 2023 Rani Kumari</p>
-                            <div className="icons">
-                                <h2>
-                                    <a
-                                        href="https://instagram.com/ranik9070?igshid=NzZlODBkYWE4Ng=="
-                                        rel="noreferrer"
-                                        target="_blank"
-                                    >
-                                        {" "}
-                                        <i className="fa-brands fa-square-instagram"></i>
-                                    </a>
-                                </h2>
-                                <h2>
-                                    <a
-                                        href=""
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <i className="fa-brands fa-github"></i>
-                                    </a>
-                                </h2>
-                                <h2>
-                                    <a
-                                        href=""
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <i className="fa-brands fa-facebook"></i>
-                                    </a>
-                                </h2>
-                            </div>
+
                         </div>
                     </footer>
 
