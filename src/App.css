@@ -13,25 +13,25 @@ a {
 }
 
 .head {
-  position: relative;
-  height: 22vh;
   width: 100%;
+  height: 20vh;
   background-color: azure;
+  position: relative;
 }
 
 .The {
-  transform: rotate(270deg);
-  position: absolute;
-  left: 40%;
-  top: 10vh;
+  rotate: 270deg;
   font-size: 2em;
+  position: absolute;
+  left: 45%;
+  top: 10vh;
 }
 
 .Siren {
-  text-align: center;
-  font-size: 4em;
+  font-size: 3.5em;
   position: absolute;
-  left: 45%;
+  left: 50%;
+
 }
 
 .navbar {
@@ -43,18 +43,22 @@ a {
   justify-content: space-evenly;
   font-size: 2em;
   background-color: antiquewhite;
-  text-decoration: none;
+}
 
+.navtxt:hover {
+  color: rgb(252, 3, 119);
+  background-color: #34a5ad;
 }
 
 /*---------HOME PAGE---------*/
 
-
+/*-------Three images-----------*/
 .MAIN-IMAGE {
   display: flex;
   gap: 8vw;
   height: 80vh;
-  width: 90%;
+  border: 3px solid black;
+  width: 100%;
   position: relative;
   top: 20vh;
   left: 0vw;
@@ -64,7 +68,11 @@ a {
   height: 75vh;
   width: 58vw;
   border-radius: 2%;
+  box-shadow: 3px 3px 3px 3px gray;
+}
 
+.GADAR2-img img:hover {
+  box-shadow: 4px 4px 4px 4px green;
 }
 
 .top-img {
@@ -77,11 +85,16 @@ a {
 
 .top-img img {
   border-radius: 2%;
+  box-shadow: 3px 3px 3px 3px gray;
   justify-content: center;
   justify-items: center;
   text-align: center;
-  height: 36vh;
+  height: 35vh;
   width: 32vw;
+}
+
+.top-img img:hover {
+  box-shadow: 3px 3px 3px 3px green;
 }
 
 
@@ -92,28 +105,28 @@ a {
   top: 20vh;
   left: 4vw;
   font-size: 1.8em;
-  color: #010e14;
+  color: #032e42;
 }
 
 
 .Latest-head:hover {
   text-decoration: underline;
-  color: rgb(71, 135, 138);
+  color: rgb(77, 165, 170);
 }
 
 .LatestDiv {
   position: relative;
   top: 28vh;
-  left: 0vw;
+  border: 2px solid black;
   display: flex;
   justify-content: space-evenly;
-  height: 90vh;
+  height: 115vh;
   width: 100%;
 }
 
 .latestimage {
-  width: 260px;
-  height: 180px;
+  width: 25vw;
+  height: 36vh;
   border-radius: 10px;
   box-shadow: 4px 4px 4px rgb(5, 73, 73);
 }
@@ -124,7 +137,8 @@ a {
 }
 
 .Latest-txt {
-  font-size: 22px;
+  font-size: 18px;
+  width: 29vw;
 
 }
 
@@ -138,126 +152,121 @@ a {
   font-size: 3rem;
   position: relative;
   top: 25vh;
-  left: 0vw;
 
 }
 
 .ArticleContainer {
-  height: 295vh;
+  height: 300vh;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   position: relative;
   top: 30vh;
-  gap: 8vw;
+  gap: 4vw;
 }
 
 .secondcolum {
+  border: 3px solid green;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  height: 290vh;
-  width: 51vw;
+  height: 295vh;
+  width: 50vw;
   gap: 5vh;
 }
 
 .Article {
-  position: relative;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   box-shadow: 3px 3px 3px 3px teal;
-  height: 32vh;
+  height: 34vh;
   width: 45vw;
 
 }
 
 
 .Articleimages {
-  height: 203px;
-  width: 240px;
+  height: 31.2vh;
+  width: 20vw;
   box-shadow: 2px 2px 2px 2px gray;
 }
 
 .Articletext {
-  position: absolute;
-  font-size: 20px;
-  left: 21vw;
+  font-size: 15px;
+  width: 25vw;
 }
 
-.Latestimage2 {
-  height: 260px;
-  width: 300px;
-}
+/* .Latestimage2 {
+  height: 30vh;
+  width: 30vw;
+} */
 
 .largeimg {
   height: 60vh;
   width: 45vw;
+  box-shadow: 3px 3px 3px 3px gray;
+  border-radius: 3%;
 }
 
 /*-----------advertisment coulmn-----------------*/
 
 .thirdcolumn {
-  /* position: absolute; */
-  height: 400vh;
-  width: 38vw;
+  border: 2px solid yellow;
+  height: 295vh;
+  width: 43.5vw;
   display: flex;
   flex-direction: column;
-  /* gap: 2vh; */
-  left: 54vw;
-
 }
 
 .Advertisement {
-  width: 100%;
+  width: 98%;
   height: 115vh;
   text-align: center;
   color: gray;
-  border: 2px solid rgb(80, 79, 79);
+  border: 3px solid rgb(75, 141, 167);
+  box-shadow: 3px 3px 3px 3px teal;
+}
+
+.Advertisement h1 {
+  font-size: 3vw;
+  margin-top: 50%;
 }
 
 /*----------------TOP POST------------------------*/
 
 .Toppost {
   height: 175vh;
-  width: 100%;
+  width: 98%;
   display: flex;
   flex-direction: column;
+  gap: 5vh;
 }
 
 .Toppost h1 {
-  font-size: 45px;
-}
-
-.toppostArticle {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  height: 34vh;
-  box-shadow: 2px 2px 2px rgb(34, 32, 32);
+  font-size: 42px;
+  text-shadow: 3px 3px 3px gray;
 }
 
 .toparticle {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  position: relative;
+  flex-wrap: wrap;
+  width: 98%;
+  height: 34vh;
+  box-shadow: 3px 3px 3px 3px palevioletred;
+}
+
+.TopArticleimg {
+  height: 30vh;
+  width: 24vw;
+  box-shadow: 2px 2px 2px 2px gray;
 }
 
 
 .textt {
-  font-size: 20px;
-  width: 20vw;
-  position: absolute;
-  left: 18vw;
+  font-size: 14px;
+  width: 14vw;
 }
 
-.number {
-  position: absolute;
-  left: 20vw;
-  top: 20vh;
-}
 
 /*-------------------latest stories---------------*/
 
@@ -278,7 +287,7 @@ a {
 }
 
 .last {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .last p {
@@ -384,6 +393,7 @@ a {
   width: 28vw;
   font-size: 18px;
 }
+
 
 .Advertise {
   position: relative;

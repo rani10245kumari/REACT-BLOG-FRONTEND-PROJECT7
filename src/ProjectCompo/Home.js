@@ -97,7 +97,7 @@ const Homecom = () => {
                                         <NavLink to={`/Navigate/${item.id}`}>
                                             <div className="toparticle">
                                                 <img
-                                                    className="Articleimages"
+                                                    className="TopArticleimg"
                                                     src={item.image}
                                                     alt="Not Found"
                                                 />

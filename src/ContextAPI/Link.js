@@ -8,6 +8,7 @@ import Homecom from '../ProjectCompo/Home'
 import Fitness from '../ProjectCompo/Fitness'
 import ConntextStore from './ContexApi'
 import Technology from '../ProjectCompo/Technology'
+import Navigate from '../ProjectCompo/Navigate'
 
 
 function RoutingCom() {
@@ -21,12 +22,12 @@ function RoutingCom() {
                 </div>
                 <div className='navbar'>
                     <Router >
-                        <Link to="/">Home</Link>
-                        <Link to="/Hollywood">Hollywood</Link>
-                        <Link to="/Bollywood">Bollywood</Link>
-                        <Link to="/Food">Food</Link>
-                        <Link to="/Technology">Technology</Link>
-                        <Link to="/Fitness">Fitness</Link>
+                        <Link to="/" className='navtxt'>Home</Link>
+                        <Link to="/Hollywood" className='navtxt'>Hollywood</Link>
+                        <Link to="/Bollywood" className='navtxt'>Bollywood</Link>
+                        <Link to="/Food" className='navtxt'>Food</Link>
+                        <Link to="/Technology" className='navtxt'>Technology</Link>
+                        <Link to="/Fitness" className='navtxt'>Fitness</Link>
 
                         <ConntextStore>
                             <Routes>
@@ -36,7 +37,7 @@ function RoutingCom() {
                                 <Route path='/Food' element={<FoodCom />} />
                                 <Route path='/Technology' element={<Technology />}></Route>
                                 <Route path='/Fitness' element={<Fitness />}></Route>
-
+                                <Route path="/Navigate/:id" element={<Navigate />} />
                             </Routes>
 
                         </ConntextStore>
@@ -50,7 +51,7 @@ function RoutingCom() {
                                 <p>About</p>
                                 <p>Contact</p>
                             </div>
-                            <p className="footer-content">&copy; 2023 Rani Kumari</p>
+                            <p className="foot-content">&copy; 2023 Rani Kumari</p>
 
                         </div>
                     </footer>
