@@ -310,52 +310,64 @@ a {
   gap: 5vw;
   position: relative;
   top: 40vh;
-  left: 0px;
-
+  border: 2px solid green;
+  width: 100%;
 }
 
 .Imagemain {
-  height: 500vh;
-  width: 45vw;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  height: 515vh;
+  width: 52vw;
+
 }
 
 .Container1 {
   position: relative;
   display: flex;
-  flex-direction: row;
-  gap: 10vh;
+  flex-direction: column;
   flex-wrap: wrap;
   box-shadow: 3px 3px 3px 3px rgb(15, 92, 92);
-  height: 35vh;
+  height: 30vh;
   width: 45vw;
 }
 
 .AllImages {
-  height: 215px;
-  width: 270px;
+  box-shadow: 2px 2px 2px 2px gray;
+  height: 29.2vh;
+  width: 24vw;
 }
 
 .AllText {
-  position: absolute;
-  font-size: 20px;
-  left: 22vw;
+  width: 20vw;
+  font-size: 16px;
+
 }
 
 /*--------------------Top main2 RIGHT---------------*/
 
-/* .TopMain2 {
-  position: relative;
-
-} */
+.TopMain2 {
+  width: 41vw;
+  height: 515vh;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
 
 .ArticleAllOne {
   display: flex;
   flex-direction: column;
+  height: 72vh;
+  gap: 2vh;
 }
 
 .singleImageForAll {
   height: 50vh;
-  width: 100%;
+  width: 96%;
+  box-shadow: 3px 3px 3px 3px gray;
 }
 
 .Top2Text {
@@ -364,34 +376,39 @@ a {
 }
 
 .ArticletextAllone1 {
-  font-size: 22px;
+  width: 35vw;
+  font-size: 20px;
   display: flex;
-
+  gap: 2vw;
 }
 
 .bigno {
-  font-size: 56px;
+  font-size: 54px;
 }
 
 /*-----TOP2 KI SERIES-------------*/
 
 .toppostdiv {
   display: flex;
-  flex-direction: row;
-  box-shadow: 4px 4px 4px orchid;
+  flex-direction: column;
+  box-shadow: 4px 4px 4px 4px orchid;
+  gap: 5vh;
   height: 20vh;
-  width: 46vw;
+  width: 40vw;
+  border: 2px solid red;
 }
 
 .Top2series {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  height: 20vh;
+  width: 46vw;
 }
 
+
 .Top2Text {
-  width: 28vw;
-  font-size: 18px;
+  width: 21vw;
+  font-size: 16px;
 }
 
 
@@ -400,7 +417,7 @@ a {
   top: 20vh;
   box-shadow: 3px 3px 3px 3px gray;
   height: 244vh;
-  width: 46vw;
+  width: 40vw;
   color: rgb(87, 86, 86);
 }
 
@@ -430,4 +447,180 @@ footer {
 .NavIcons h2 {
   font-size: 24px;
   margin: 0 5px;
+}
+
+
+/*-------------------MEDIA QUERRY ---------------------------
+---------------------------------------------------*/
+
+@media (max-width: 767px) {
+  /*---------HOME PAGE---------*/
+
+  /*-------Three images-----------*/
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .MAIN-IMAGE {
+    flex-direction: column;
+    gap: 4vh;
+    height: 130vh;
+    border: 3px solid black;
+  }
+
+  .GADAR2-img img {
+    height: 48vh;
+    width: 98%;
+  }
+
+  .top-img {
+    height: 72vh;
+    width: 100%;
+    border: 2px solid orangered;
+  }
+
+  .top-img img {
+    height: 32vh;
+    width: 98%;
+  }
+
+  /*------------the latest---------------*/
+  .LatestDiv {
+    top: 20vh;
+    border: 3px solid rgb(11, 179, 11);
+    flex-direction: column;
+    justify-content: start;
+    height: 200vh;
+    width: 100%;
+  }
+
+  .latestimage {
+    width: 98%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgb(5, 73, 73);
+  }
+
+  .Latest-txt-head {
+    font-size: 28px;
+  }
+
+  .Latest-txt {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .HomeLatest {
+    text-align: center;
+  }
+
+  /*------LATEST ARTICLE SECTION----------------*/
+
+  .Article-head {
+    font-size: 2.5rem;
+    top: 20vh;
+  }
+
+  .ArticleContainer {
+    height: 503vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rebeccapurple;
+  }
+
+  .secondcolum {
+    border: 3px solid green;
+    height: 260vh;
+    width: 100%;
+  }
+
+  .Article {
+    height: 30vh;
+    width: 98%;
+  }
+
+  .Articleimages {
+    height: 29.6vh;
+    width: 49vw;
+  }
+
+  .Articletext {
+    font-size: 13px;
+    width: 33vw;
+  }
+
+  .largeimg {
+    height: 45vh;
+    width: 98%;
+  }
+
+  /*-----------advertisment coulmn-----------------*/
+
+  .thirdcolumn {
+    border: 2px solid rgb(80, 23, 13);
+    height: 238vh;
+    width: 100%;
+  }
+
+  .Advertisement {
+    width: 96%;
+    height: 80vh;
+    color: rgb(85, 85, 85);
+  }
+
+  .Advertisement h1 {
+    font-size: 1em;
+  }
+
+  /*----------------TOP POST------------------------*/
+
+  .Toppost {
+    border: 3px solid red;
+    height: 155vh;
+    width: 100%;
+  }
+
+  .toparticle {
+    width: 97%;
+    height: 28vh;
+  }
+
+  .TopArticleimg {
+    height: 27.5vh;
+    width: 50vw;
+  }
+
+  .textt {
+    width: 24vw;
+  }
+
+
+  /*-------------------latest stories---------------*/
+
+
+  .Storiehead {
+    top: 26vh;
+    font-size: 55px;
+  }
+
+  .StoriesDiv {
+    flex-direction: column;
+    justify-content: start;
+    height: 190vh;
+    width: 100%;
+    border: 3px solid blue;
+  }
+
+  .last {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .last p {
+    width: 95%;
+  }
+
+
+
 }

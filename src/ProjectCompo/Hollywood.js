@@ -22,7 +22,7 @@ const Hollywood = () => {
                                             />
                                             <div className="AllText">
                                                 <h2>{item.name}</h2>
-                                                <p>{item.text.slice(0, 90)}...</p>
+                                                <p>{item.text.slice(0, 80)}...</p>
                                             </div>
                                         </div>
                                     </NavLink>
@@ -71,7 +71,7 @@ const Hollywood = () => {
                                                 />
                                                 <div className="Top2Text">
                                                     <h2>{item.name}</h2>
-                                                    <p>{item.text.slice(0, 80)}</p>
+                                                    <p>{item.text.slice(0, 60)}</p>
                                                 </div>
 
                                                 <div className="number">
