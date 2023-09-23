@@ -120,7 +120,7 @@ a {
   border: 2px solid black;
   display: flex;
   justify-content: space-evenly;
-  height: 115vh;
+  height: 95vh;
   width: 100%;
 }
 
@@ -282,7 +282,7 @@ a {
   left: 0vw;
   display: flex;
   justify-content: space-evenly;
-  height: 90vh;
+  height: 64vh;
   width: 100%;
 }
 
@@ -302,14 +302,14 @@ a {
 
 .headingcompo {
   position: absolute;
-  top: 40vh;
+  top: 30vh;
 }
 
 .maindiv {
   display: flex;
   gap: 5vw;
   position: relative;
-  top: 40vh;
+  top: 30vh;
   border: 2px solid green;
   width: 100%;
 }
@@ -395,7 +395,6 @@ a {
   gap: 5vh;
   height: 20vh;
   width: 40vw;
-  border: 2px solid red;
 }
 
 .Top2series {
@@ -416,7 +415,7 @@ a {
   position: relative;
   top: 20vh;
   box-shadow: 3px 3px 3px 3px gray;
-  height: 244vh;
+  height: 238vh;
   width: 40vw;
   color: rgb(87, 86, 86);
 }
@@ -620,6 +619,131 @@ footer {
   .last p {
     width: 95%;
   }
+
+  /*------------BOLLYWOOD ----------------------*/
+
+
+  .headingcompo {
+    top: 35vh;
+    font-size: 40px;
+  }
+
+  .maindiv {
+    display: flex;
+    flex-direction: column;
+    top: 26vh;
+    height: 615vh;
+    border: 2px solid green;
+    width: 100%;
+  }
+
+  .Imagemain {
+    border: 2px solid red;
+    height: 390vh;
+    width: 99%;
+
+  }
+
+  .Container1 {
+    flex-direction: column;
+    height: 23vh;
+    width: 98%;
+  }
+
+  .AllImages {
+    height: 22.5vh;
+    width: 45vw;
+  }
+
+  .AllText {
+    width: 44vw;
+    height: 100%;
+    font-size: 12px;
+
+  }
+
+  /*--------------------Top main2 RIGHT---------------*/
+
+  .TopMain2 {
+    width: 99%;
+    height: 215vh;
+  }
+
+  .Top {
+    font-size: 42px;
+  }
+
+  .ArticleAllOne {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    gap: 3vh;
+    border: 2px solid yellowgreen;
+  }
+
+  .singleImageForAll {
+    height: 50vh;
+    width: 98%;
+    box-shadow: 3px 3px 3px 3px gray;
+  }
+
+  /* .Top2Text {
+    width: 60vw;
+    height: 20vh;
+  } */
+
+  .ArticletextAllone1 {
+    height: 13vh;
+    width: 99%;
+    font-size: 12px;
+    gap: 8vw;
+  }
+
+  .bigno {
+    font-size: 39px;
+  }
+
+  /*-----TOP2 KI SERIES-------------*/
+
+  .toppostdiv {
+    box-shadow: 4px 4px 4px 4px orchid;
+    gap: 5vh;
+    height: 20vh;
+    width: 98%;
+  }
+
+  .Top2series {
+    display: flex;
+    flex-direction: row;
+    height: 21vh;
+    width: 99%;
+    gap: 3.5vw;
+  }
+
+  .topsmallimg {
+    height: 19vh;
+    width: 50vw;
+    box-shadow: 2px 2px 2px 2px gray;
+  }
+
+
+  .Top2Text {
+    width: 33vw;
+    font-size: 11px;
+  }
+
+  .number {
+    font-size: 14px;
+  }
+
+
+  .Advertise {
+    display: none;
+  }
+
+
+
+
 
 
 

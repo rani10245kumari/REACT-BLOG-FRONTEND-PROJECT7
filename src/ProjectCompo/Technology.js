@@ -45,7 +45,7 @@ const Technology = () => {
                                                 />
                                                 <div className="ArticletextAllone1">
                                                     <h2>{item.text.slice(0, 60)}</h2>
-                                                    <h1>{index + 1}</h1>
+                                                    <h1 className="bigno">{index + 1}</h1>
                                                 </div>
                                             </div>
                                         </div>
@@ -67,7 +67,7 @@ const Technology = () => {
                                                 />
                                                 <div className="Top2Text">
                                                     <h2>{item.name}</h2>
-                                                    <p>{item.text.slice(0, 80)}</p>
+                                                    <p>{item.text.slice(0, 50)}</p>
                                                 </div>
 
                                                 <div className="number">
