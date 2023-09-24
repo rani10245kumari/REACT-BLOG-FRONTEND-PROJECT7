@@ -22,7 +22,7 @@ const Bollywood = () => {
                                             />
                                             <div className="AllText">
                                                 <h2>{item.name}</h2>
-                                                <p>{item.text.slice(0, 80)}...</p>
+                                                <p>{item.text.slice(0, 78)}...</p>
                                             </div>
                                         </div>
                                     </NavLink>
@@ -66,9 +66,8 @@ const Bollywood = () => {
                                                 <img
                                                     src={item.image}
                                                     alt="Not Found"
-                                                    height="120px"
-                                                    width="200px"
-                                                />
+
+                                                    className="topsmallimg " />
                                                 <div className="Top2Text">
                                                     <h2>{item.name}</h2>
                                                     <p>{item.text.slice(0, 40)}</p>

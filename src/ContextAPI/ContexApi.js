@@ -301,7 +301,7 @@ const ConntextStore = (props) => {
 
         {
             id: 43,
-            name: "",
+            name: "Yoga and Healthy Habits",
             category: "Fitness",
             image: "https://drkellyann.com/cdn/shop/articles/Best_Tips_for_Exercising_and_Working_Out_at_Home_1445x.jpg?v=1585152413",
             text: "Piece your workout together. You don’t need to get all your exercise at one time. Ten minutes morning, noon, and night can give much of the same benefit as 30 minutes all at once.",

@@ -21,7 +21,7 @@ const Technology = () => {
                                         />
                                         <div className="AllText">
                                             <h2>{item.name}</h2>
-                                            <p>{item.text.slice(0, 90)}...</p>
+                                            <p>{item.text.slice(0, 85)}...</p>
                                         </div>
                                     </div>
                                 </div>
@@ -56,25 +56,26 @@ const Technology = () => {
                         {Data.filter((item) => item.id >= 60 && item.id <= 65).map(
                             (item, index) => {
                                 return (
-                                    <div key={index} className="toppostdiv">
-                                        <NavLink to={`/Navigate/${item.id}`}>
-                                            <div className="Top2series">
-                                                <img
-                                                    src={item.image}
-                                                    alt="Not Found"
-                                                    height="120px"
-                                                    width="200px"
-                                                />
-                                                <div className="Top2Text">
-                                                    <h2>{item.name}</h2>
-                                                    <p>{item.text.slice(0, 50)}</p>
-                                                </div>
+                                    <div className="toppostdiv">
+                                        <div key={index} >
+                                            <NavLink to={`/Navigate/${item.id}`}>
+                                                <div className="Top2series">
+                                                    <img
+                                                        src={item.image}
+                                                        alt="Not Found"
 
-                                                <div className="number">
-                                                    <h1>{index + 2}</h1>
+                                                        className="topsmallimg " />
+                                                    <div className="Top2Text">
+                                                        <h2>{item.name}</h2>
+                                                        <p>{item.text.slice(0, 50)}</p>
+                                                    </div>
+
+                                                    <div className="number">
+                                                        <h1>{index + 2}</h1>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </NavLink>
+                                            </NavLink>
+                                        </div>
                                     </div>
                                 );
                             }

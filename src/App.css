@@ -4,7 +4,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 a {
@@ -12,11 +12,11 @@ a {
   color: rgb(83, 82, 82);
 }
 
+/*------------------THE SERIN--------------------------*/
 .head {
   width: 100%;
   height: 20vh;
   background-color: azure;
-  position: relative;
 }
 
 .The {
@@ -24,25 +24,32 @@ a {
   font-size: 2em;
   position: absolute;
   left: 45%;
-  top: 10vh;
+  top: 8vh;
 }
 
 .Siren {
   font-size: 3.5em;
   position: absolute;
   left: 50%;
-
+  top: -4vh;
 }
 
-.navbar {
+/*==============================NAVBAR==============================*/
+
+.linktag2 {
+  background-color: pink;
   height: 16vh;
   width: 100%;
-  text-align: center;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
-  font-size: 2em;
-  background-color: antiquewhite;
+  align-items: center;
+}
+
+.navtxt {
+  font-size: 32px;
+  text-shadow: 3px 3px rgb(160, 158, 158);
+  /* border: 14px solid pink; */
+
 }
 
 .navtxt:hover {
@@ -50,18 +57,16 @@ a {
   background-color: #34a5ad;
 }
 
-/*---------HOME PAGE---------*/
+/*-----------------------------HOME PAGE-------------------------
+--------------------------------------------------------------------*/
 
 /*-------Three images-----------*/
 .MAIN-IMAGE {
   display: flex;
   gap: 8vw;
-  height: 80vh;
+  height: 77vh;
   border: 3px solid black;
   width: 100%;
-  position: relative;
-  top: 20vh;
-  left: 0vw;
 }
 
 .GADAR2-img img {
@@ -86,9 +91,6 @@ a {
 .top-img img {
   border-radius: 2%;
   box-shadow: 3px 3px 3px 3px gray;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
   height: 35vh;
   width: 32vw;
 }
@@ -99,13 +101,12 @@ a {
 
 
 
-/*------------the latest---------------*/
+/*------------the latest-------------------------------------
+-----------------------------------------------------------------*/
 .Latest-head {
-  position: relative;
-  top: 20vh;
-  left: 4vw;
-  font-size: 1.8em;
-  color: #032e42;
+  text-align: center;
+  font-size: 52px;
+  color: #044563;
 }
 
 
@@ -115,12 +116,10 @@ a {
 }
 
 .LatestDiv {
-  position: relative;
-  top: 28vh;
-  border: 2px solid black;
+  border: 3px solid rgb(201, 8, 8);
   display: flex;
   justify-content: space-evenly;
-  height: 95vh;
+  height: 88vh;
   width: 100%;
 }
 
@@ -132,36 +131,38 @@ a {
 }
 
 .Latest-txt-head {
-  font-size: 38px;
-
+  font-size: 36px;
 }
 
 .Latest-txt {
-  font-size: 18px;
+  font-size: 16px;
   width: 29vw;
-
 }
 
 .HomeLatest {
   text-align: center;
 }
 
-/*------LATEST ARTICLE SECTION----------------*/
+/*----------------------------LATEST ARTICLE SECTION-------------------
+-------------------------------*/
 
 .Article-head {
   font-size: 3rem;
-  position: relative;
-  top: 25vh;
+  text-align: center;
+  color: rgb(58, 55, 55);
+  text-shadow: 3px 3px gray;
+}
 
+.Article-head:hover {
+  color: #02293b;
 }
 
 .ArticleContainer {
   height: 300vh;
   width: 100%;
   display: flex;
-  position: relative;
-  top: 30vh;
   gap: 4vw;
+  border: 3px solid rgb(95, 2, 2);
 }
 
 .secondcolum {
@@ -180,19 +181,21 @@ a {
   box-shadow: 3px 3px 3px 3px teal;
   height: 34vh;
   width: 45vw;
-
 }
 
 
 .Articleimages {
-  height: 31.2vh;
+  height: 33.2vh;
   width: 20vw;
   box-shadow: 2px 2px 2px 2px gray;
 }
 
 .Articletext {
+  text-align: center;
   font-size: 15px;
   width: 25vw;
+  height: 33vh;
+  border: 2px solid rgb(83, 32, 83);
 }
 
 /* .Latestimage2 {
@@ -210,9 +213,9 @@ a {
 /*-----------advertisment coulmn-----------------*/
 
 .thirdcolumn {
-  border: 2px solid yellow;
+  border: 2px solid rgb(103, 216, 11);
   height: 295vh;
-  width: 43.5vw;
+  width: 44vw;
   display: flex;
   flex-direction: column;
 }
@@ -250,14 +253,14 @@ a {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 98%;
+  width: 100%;
   height: 34vh;
   box-shadow: 3px 3px 3px 3px palevioletred;
 }
 
 .TopArticleimg {
-  height: 30vh;
-  width: 24vw;
+  height: 33vh;
+  width: 20vw;
   box-shadow: 2px 2px 2px 2px gray;
 }
 
@@ -272,18 +275,16 @@ a {
 
 
 .Storiehead {
-  position: relative;
-  top: 28vh;
+  text-align: center;
+  font-size: 50px;
 }
 
 .StoriesDiv {
-  position: relative;
-  top: 35vh;
-  left: 0vw;
   display: flex;
   justify-content: space-evenly;
-  height: 64vh;
+  height: 65vh;
   width: 100%;
+  border: 2px solid blue;
 }
 
 .last {
@@ -295,22 +296,65 @@ a {
 }
 
 
+/*---------------------FOOTER DESIGN--------------------*/
+footer {
+  background-color: #34a5ad;
+  padding: 20px 0px;
+  width: 100%;
+
+}
+
+.NavIcons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.NavIcons h2 {
+  font-size: 42px;
+  margin: 0px 5px;
+}
+
+.leftNav {
+  gap: 3vw;
+  display: flex;
+  flex-direction: row;
+  font-size: 32px;
+  color: aliceblue;
+}
+
+.icons h2 {
+  font-size: 35px;
+}
+
+.footer-content {
+  font-size: 26px;
+  color: aliceblue;
+}
 
 
 
-/*------------BOLLYWOOD ----------------------*/
+
+
+/*------------BOLLYWOOD ----------------------============
+===============================================================*/
 
 .headingcompo {
-  position: absolute;
-  top: 30vh;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 4px 4px #044563;
+}
+
+.headingcompo:hover {
+  color: #4db4bb;
 }
 
 .maindiv {
   display: flex;
   gap: 5vw;
-  position: relative;
-  top: 30vh;
-  border: 2px solid green;
+  border: 4px solid green;
   width: 100%;
 }
 
@@ -325,7 +369,6 @@ a {
 }
 
 .Container1 {
-  position: relative;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -342,7 +385,7 @@ a {
 
 .AllText {
   width: 20vw;
-  font-size: 16px;
+  font-size: 1.2vw;
 
 }
 
@@ -364,6 +407,13 @@ a {
   gap: 2vh;
 }
 
+.Top {
+  font-size: 46px;
+  color: #02293b;
+  text-align: center;
+  text-shadow: 3px 3px skyblue;
+}
+
 .singleImageForAll {
   height: 50vh;
   width: 96%;
@@ -376,14 +426,16 @@ a {
 }
 
 .ArticletextAllone1 {
-  width: 35vw;
-  font-size: 20px;
+  border: 2px solid black;
+  height: 19vh;
+  width: 41vw;
+  font-size: 14px;
   display: flex;
   gap: 2vw;
 }
 
 .bigno {
-  font-size: 54px;
+  font-size: 46px;
 }
 
 /*-----TOP2 KI SERIES-------------*/
@@ -391,68 +443,77 @@ a {
 .toppostdiv {
   display: flex;
   flex-direction: column;
-  box-shadow: 4px 4px 4px 4px orchid;
   gap: 5vh;
-  height: 20vh;
-  width: 40vw;
+  height: 23vh;
+  width: 41vw;
 }
 
 .Top2series {
+  box-shadow: 4px 4px 4px 4px orchid;
   display: flex;
   flex-direction: row;
   height: 20vh;
-  width: 46vw;
+  width: 40vw;
+  gap: 2vw;
+}
+
+.topsmallimg {
+  border: 2px solid red;
+  height: 20vh;
+  width: 16vw;
+}
+
+.number {
+  font-size: 1em;
 }
 
 
 .Top2Text {
-  width: 21vw;
-  font-size: 16px;
+  width: 16vw;
+  font-size: 13px;
+  border: 2px solid green;
 }
 
 
 .Advertise {
-  position: relative;
-  top: 20vh;
   box-shadow: 3px 3px 3px 3px gray;
-  height: 238vh;
+  height: 240vh;
   width: 40vw;
   color: rgb(87, 86, 86);
+  margin-top: 20%;
 }
 
-
-
-
-/*---------------------FOOTER DESIGN----------*/
-footer {
-  width: 100%;
-  background-color: #3a8085;
-  color: white;
+.Advertise h1 {
   text-align: center;
-  margin-top: 40vh;
+  font-size: 40px;
+  padding-top: 90%;
 }
 
-.Navb {
-  display: flex;
-  flex-direction: row;
+
+
+
+
+
+
+/*-----------------------------hamburger-------------=================*/
+.hamburger {
+  display: none;
 }
 
-.Nav {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+/*===========================NAVIGATE PAGE DESIGNE==============
+==================================================*/
+.ParentTop {
+  border: 2px solid slateblue;
 }
 
-.NavIcons h2 {
-  font-size: 24px;
-  margin: 0 5px;
-}
+
 
 
 /*-------------------MEDIA QUERRY ---------------------------
+==========================================================
 ---------------------------------------------------*/
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width:300px) {
   /*---------HOME PAGE---------*/
 
   /*-------Three images-----------*/
@@ -461,10 +522,72 @@ footer {
     overflow-y: scroll;
   }
 
+  .head {
+    background: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+
+  .linktag {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(207, 190, 190);
+    text-align: center;
+  }
+
+  .navtxt {
+    color: #044563;
+  }
+
+  .navtxt:hover {
+    color: antiquewhite;
+    background-color: palevioletred;
+  }
+
+  .linktag2 {
+    display: none;
+
+  }
+
+  .hambuger-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7aced4;
+  }
+
+  .navbar {
+    background: none;
+  }
+
+  /*------------------THE SERIN--------------------------*/
+  .head {
+    width: 100%;
+    height: 15vh;
+    /* position: relative; */
+  }
+
+  .The {
+    rotate: 270deg;
+    font-size: 25px;
+    position: absolute;
+    left: 30%;
+    top: 7vh;
+  }
+
+  .Siren {
+    font-size: 45px;
+    position: absolute;
+    left: 42%;
+
+  }
+
   .MAIN-IMAGE {
     flex-direction: column;
     gap: 4vh;
-    height: 130vh;
+    height: 125vh;
     border: 3px solid black;
   }
 
@@ -474,7 +597,7 @@ footer {
   }
 
   .top-img {
-    height: 72vh;
+    height: 70vh;
     width: 100%;
     border: 2px solid orangered;
   }
@@ -486,11 +609,10 @@ footer {
 
   /*------------the latest---------------*/
   .LatestDiv {
-    top: 20vh;
     border: 3px solid rgb(11, 179, 11);
     flex-direction: column;
     justify-content: start;
-    height: 200vh;
+    height: 180vh;
     width: 100%;
   }
 
@@ -517,15 +639,14 @@ footer {
 
   .Article-head {
     font-size: 2.5rem;
-    top: 20vh;
   }
 
   .ArticleContainer {
-    height: 503vh;
+    height: 410vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 2px solid rebeccapurple;
+    border: 2px solid rgb(101, 37, 165);
   }
 
   .secondcolum {
@@ -546,7 +667,7 @@ footer {
 
   .Articletext {
     font-size: 13px;
-    width: 33vw;
+    width: 40vw;
   }
 
   .largeimg {
@@ -558,25 +679,20 @@ footer {
 
   .thirdcolumn {
     border: 2px solid rgb(80, 23, 13);
-    height: 238vh;
+    height: 148vh;
     width: 100%;
   }
 
   .Advertisement {
-    width: 96%;
-    height: 80vh;
-    color: rgb(85, 85, 85);
+    display: none;
   }
 
-  .Advertisement h1 {
-    font-size: 1em;
-  }
-
-  /*----------------TOP POST------------------------*/
+  /*----------------TOP POST------------------------
+  ============================================*/
 
   .Toppost {
     border: 3px solid red;
-    height: 155vh;
+    height: 146vh;
     width: 100%;
   }
 
@@ -599,28 +715,64 @@ footer {
 
 
   .Storiehead {
-    top: 26vh;
-    font-size: 55px;
+    font-size: 40px;
   }
 
   .StoriesDiv {
     flex-direction: column;
     justify-content: start;
-    height: 190vh;
+    height: 160vh;
     width: 100%;
     border: 3px solid blue;
   }
 
   .last {
-    font-size: 18px;
-    text-align: center;
+    font-size: 17px;
+    color: gray;
   }
 
   .last p {
     width: 95%;
   }
 
-  /*------------BOLLYWOOD ----------------------*/
+  /*---------------------FOOTER DESIGN--------------------*/
+  footer {
+    background-color: #4db4bb;
+    padding: 20px 0px;
+    width: 100%;
+  }
+
+  .NavIcons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+
+  }
+
+  .NavIcons h2 {
+    font-size: 32px;
+    margin: 0px 5px;
+  }
+
+  .leftNav {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .icons h2 {
+    font-size: 28px;
+  }
+
+  .footer-content {
+    font-size: 17px;
+  }
+
+
+  /*------------BOLLYWOOD ----------------------===============
+  ===============================================================
+  =========================================*/
 
 
   .headingcompo {
@@ -632,7 +784,7 @@ footer {
     display: flex;
     flex-direction: column;
     top: 26vh;
-    height: 615vh;
+    height: 632vh;
     border: 2px solid green;
     width: 100%;
   }
@@ -666,7 +818,8 @@ footer {
 
   .TopMain2 {
     width: 99%;
-    height: 215vh;
+    height: 240vh;
+    border: 2px solid blue;
   }
 
   .Top {
@@ -735,7 +888,6 @@ footer {
   .number {
     font-size: 14px;
   }
-
 
   .Advertise {
     display: none;

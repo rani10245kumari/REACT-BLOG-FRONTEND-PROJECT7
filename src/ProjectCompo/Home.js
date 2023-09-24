@@ -67,7 +67,7 @@ const Homecom = () => {
                                             />
                                             <div className="Articletext">
                                                 <h1>{item.name}</h1>
-                                                <p className="text">{item.text.slice(0, 80)}</p>
+                                                <p className="text">{item.text.slice(0, 80)}..</p>
                                             </div>
                                         </div>
                                     </NavLink>
@@ -103,7 +103,7 @@ const Homecom = () => {
                                                 />
                                                 <div className="textt">
                                                     <h3>{item.name}</h3>
-                                                    <p>{item.text.slice(0, 60)}</p>
+                                                    <p>{item.text.slice(0, 60)}..</p>
                                                 </div>
 
                                                 <div className="number">
