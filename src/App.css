@@ -119,7 +119,7 @@ a {
 .LatestDiv {
   display: flex;
   justify-content: space-evenly;
-  height: 95vh;
+  height: 80vh;
   width: 100%;
 }
 
@@ -550,6 +550,18 @@ footer {
   box-shadow: 4px 4px 4px 4px seagreen;
 }
 
+.btn {
+  height: 10vh;
+  text-align: center;
+}
+
+.backbutton {
+  background-color: #161616;
+  width: 20vw;
+  height: 8vh;
+  font-size: 20px;
+  color: white;
+}
 
 .navitext {
   font-size: 22px;
@@ -1101,7 +1113,7 @@ footer {
   .LatestDiv {
     flex-direction: column;
     justify-content: space-evenly;
-    height: 200vh;
+    height: 180vh;
     width: 100%;
   }
 
@@ -1431,7 +1443,10 @@ footer {
 
   }
 
-
+  .backbutton {
+    height: 5vh;
+    width: 20vw;
+  }
 
 
 

@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import HamburgerMenu from 'hamburger-react';
 import React, { useState } from 'react';
 import Bollywood from '../ProjectCompo/Bollywood';
 import Hollywood from '../ProjectCompo/Hollywood';
@@ -29,7 +28,7 @@ function RoutingCom() {
                         <h1 className='Siren'> Siren</h1>
                     </div>
                     <div className='hamburger' onClick={toggleMenu}>
-                        <HamburgerMenu />
+                        <i className="fa-solid fa-bars"></i>
                     </div>
                 </div>
                 <div className='navbar'>

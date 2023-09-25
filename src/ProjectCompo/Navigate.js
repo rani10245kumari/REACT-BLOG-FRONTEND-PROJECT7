@@ -1,14 +1,16 @@
 import React, { useContext } from "react";
-import { useParams, NavLink } from "react-router-dom";
+import { useParams, NavLink, useNavigate } from "react-router-dom";
 import { Store } from "../ContextAPI/ContexApi";
 
 const Navigate = () => {
     const [newitem] = useContext(Store);
     const { id } = useParams();
     const itemId = parseInt(id);
+    const navii = useNavigate()
     const selectedItem = newitem.find((item) => item.id === itemId);
     const categorynew = selectedItem ? selectedItem.category : "";
     const relatedItems = newitem
+
         .filter(
             (item) =>
                 item.category === categorynew &&
@@ -24,15 +26,28 @@ const Navigate = () => {
                     <h1>{selectedItem.name}</h1>
                     <h1>{selectedItem.title}</h1>
                     <div className="socialProfile">
+
+
                         <div className="Profile">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZcNNV6OAX_vD3pWSsWPxWK1jFexbwmBG8fKYhq-6VFUeGWDbUo50ys1Uv-JZBPEWSmE&usqp=CAU" className="pic"></img>
                             <h4 className="name"> Rani Kumari </h4>
                         </div>
                         <div className="Socialmedia">
-                            <img className="sicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRztMLZ5RO6EhrIJrzmBK2Kh2tLmsroesf87g&usqp=CAU" alt="Not Found" />
-                            <img className="sicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6lMHdoGBTbg5rYGlo_5_fSyqEJpuFnIvoMR0eqy-mwxfErJUHdj_dPVs03x3U2r--w0&usqp=CAU" alt='Not Found' />
-                            <img className='sicon' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGs1LETqnEyuX9xvRmPjHK7ulEtLeXSpYLHQ&usqp=CAU" alt='Not Found' />
-                            <img className="sicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7zTyVz8gyeFBXNFNC_TJ2mdKZXMUiY6LoFg&usqp=CAU" alt="Not Found" />
+                            <a href="https://www.facebook.com/ruhi.verma.1000469?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+                                <img className="sicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRztMLZ5RO6EhrIJrzmBK2Kh2tLmsroesf87g&usqp=CAU" alt="Not Found" />
+                            </a>
+
+                            <a href="https://github.com/rani10245kumari" target="_blank" rel="noopener noreferrer">
+                                <img className="sicon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt='Not Found' />
+                            </a>
+
+                            <a href="http://instagram.com/ranik9070/" target="_blank" rel="noopener noreferrer">
+                                <img className='sicon' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGs1LETqnEyuX9xvRmPjHK7ulEtLeXSpYLHQ&usqp=CAU" alt='Not Found' />
+                            </a>
+
+                            <a href="www.linkedin.com/in/rani-kumari-001119256" target="_blank" rel="noopener noreferrer">
+                                <img className="sicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7zTyVz8gyeFBXNFNC_TJ2mdKZXMUiY6LoFg&usqp=CAU" alt="Not Found" />
+                            </a>
 
                         </div>
                     </div>
@@ -61,6 +76,9 @@ const Navigate = () => {
                         </NavLink>
                     </div>
                 ))}
+            </div>
+            <div className="btn">
+                <button onClick={() => navii(-1)} className="backbutton">Back</button>
             </div>
         </div>
     );
