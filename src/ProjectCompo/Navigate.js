@@ -23,8 +23,18 @@ const Navigate = () => {
                 <div className="detail">
                     <h1>{selectedItem.name}</h1>
                     <h1>{selectedItem.title}</h1>
-                    <div className="Profile">
-                        <h4 className="name"> Rani Kumari </h4>
+                    <div className="socialProfile">
+                        <div className="Profile">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZcNNV6OAX_vD3pWSsWPxWK1jFexbwmBG8fKYhq-6VFUeGWDbUo50ys1Uv-JZBPEWSmE&usqp=CAU" className="pic"></img>
+                            <h4 className="name"> Rani Kumari </h4>
+                        </div>
+                        <div className="Socialmedia">
+                            <img className="sicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRztMLZ5RO6EhrIJrzmBK2Kh2tLmsroesf87g&usqp=CAU" alt="Not Found" />
+                            <img className="sicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6lMHdoGBTbg5rYGlo_5_fSyqEJpuFnIvoMR0eqy-mwxfErJUHdj_dPVs03x3U2r--w0&usqp=CAU" alt='Not Found' />
+                            <img className='sicon' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGs1LETqnEyuX9xvRmPjHK7ulEtLeXSpYLHQ&usqp=CAU" alt='Not Found' />
+                            <img className="sicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7zTyVz8gyeFBXNFNC_TJ2mdKZXMUiY6LoFg&usqp=CAU" alt="Not Found" />
+
+                        </div>
                     </div>
                     <img
                         className="NavigateImg"

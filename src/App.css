@@ -508,8 +508,35 @@ footer {
   color: #7aced4;
 }
 
+.socialProfile {
+  display: flex;
+  flex-direction: row;
+}
+
+.Profile {
+  display: flex;
+  width: 30vw;
+  height: 15vh;
+  align-items: baseline;
+}
+
+.pic {
+  height: 10vh;
+  width: 5vw;
+}
+
 .name {
   font-size: 22px;
+}
+
+/*-------social icon-------*/
+.Socialmedia {
+  display: flex;
+}
+
+.sicon {
+  height: 10vh;
+  width: 4vw;
 }
 
 .NavigateImg {
@@ -531,7 +558,7 @@ footer {
   text-shadow: 2px 2px rgb(103, 157, 177);
 }
 
-.text4 {}
+
 
 /*
 -----lateset text--------
@@ -924,15 +951,37 @@ footer {
     margin-left: 0%;
   }
 
-  /* .detail h1 {
-    text-align: center;
-    font-size: 35px;
-    color: #02293b;
-  } */
+  .socialProfile {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 
-  /* .name {
+  .Profile {
+    display: flex;
+    width: 42vw;
+    height: 15vh;
+    align-items: baseline;
+  }
+
+  .pic {
+    height: 10vh;
+    width: 8vw;
+  }
+
+  .name {
     font-size: 22px;
-  } */
+  }
+
+  /*-------social icon-------*/
+  .Socialmedia {
+    display: flex;
+  }
+
+  .sicon {
+    height: 8vh;
+    width: 12vw;
+  }
 
   .NavigateImg {
     height: 54vh;
@@ -1023,7 +1072,7 @@ footer {
   .Siren {
     font-size: 58px;
     left: 42%;
-    top: -3vh;
+    top: -1vh;
   }
 
   .MAIN-IMAGE {
@@ -1333,15 +1382,38 @@ footer {
     margin-left: 0%;
   }
 
-  /* .detail h1 {
-    text-align: center;
-    font-size: 35px;
-    color: #02293b;
-  } */
+  .socialProfile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-  /* .name {
-    font-size: 22px;
-  } */
+  .Profile {
+    display: flex;
+    width: 30vw;
+    height: 15vh;
+    align-items: baseline;
+  }
+
+  .pic {
+    height: 10vh;
+    width: 12vw;
+  }
+
+  .name {
+    font-size: 26px;
+  }
+
+  /*-------social icon-------*/
+  .Socialmedia {
+    display: flex;
+  }
+
+  .sicon {
+    height: 6vh;
+    width: 12vw;
+  }
+
 
   .NavigateImg {
     height: 54vh;

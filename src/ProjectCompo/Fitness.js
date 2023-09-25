@@ -13,17 +13,19 @@ const Fitness = () => {
                         (item, index) => {
                             return (
                                 <div key={index}>
-                                    <div className="Container1">
-                                        <img
-                                            className="AllImages"
-                                            src={item.image}
-                                            alt="Not Found"
-                                        />
-                                        <div className="AllText">
-                                            <h2>{item.name}</h2>
-                                            <p>{item.text.slice(0, 80)}...</p>
+                                    <NavLink to={`/Navigate/${item.id}`}>
+                                        <div className="Container1">
+                                            <img
+                                                className="AllImages"
+                                                src={item.image}
+                                                alt="Not Found"
+                                            />
+                                            <div className="AllText">
+                                                <h2>{item.name}</h2>
+                                                <p>{item.text.slice(0, 80)}...</p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </NavLink>
                                 </div>
                             );
                         }
