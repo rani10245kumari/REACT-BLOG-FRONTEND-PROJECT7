@@ -23,14 +23,14 @@ a {
   rotate: 270deg;
   font-size: 2em;
   position: absolute;
-  left: 45%;
-  top: 8vh;
+  left: 42%;
+  top: 7vh;
 }
 
 .Siren {
-  font-size: 3.5em;
+  font-size: 3.2em;
   position: absolute;
-  left: 50%;
+  left: 48%;
   top: -4vh;
 }
 
@@ -65,8 +65,8 @@ a {
   display: flex;
   gap: 8vw;
   height: 77vh;
-  border: 3px solid black;
   width: 100%;
+  margin-top: 5vh;
 }
 
 .GADAR2-img img {
@@ -116,10 +116,9 @@ a {
 }
 
 .LatestDiv {
-  border: 3px solid rgb(201, 8, 8);
   display: flex;
   justify-content: space-evenly;
-  height: 88vh;
+  height: 95vh;
   width: 100%;
 }
 
@@ -135,7 +134,7 @@ a {
 }
 
 .Latest-txt {
-  font-size: 16px;
+  font-size: 14px;
   width: 29vw;
 }
 
@@ -162,11 +161,9 @@ a {
   width: 100%;
   display: flex;
   gap: 4vw;
-  border: 3px solid rgb(95, 2, 2);
 }
 
 .secondcolum {
-  border: 3px solid green;
   display: flex;
   flex-direction: column;
   height: 295vh;
@@ -213,7 +210,6 @@ a {
 /*-----------advertisment coulmn-----------------*/
 
 .thirdcolumn {
-  border: 2px solid rgb(103, 216, 11);
   height: 295vh;
   width: 44vw;
   display: flex;
@@ -282,17 +278,17 @@ a {
 .StoriesDiv {
   display: flex;
   justify-content: space-evenly;
-  height: 65vh;
+  height: 70vh;
   width: 100%;
-  border: 2px solid blue;
 }
 
 .last {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .last p {
   width: 25vw;
+  font-size: 14px;
 }
 
 
@@ -301,15 +297,13 @@ footer {
   background-color: #34a5ad;
   padding: 20px 0px;
   width: 100%;
-
 }
 
 .NavIcons {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 10px;
-
+  height: 28vh;
 }
 
 .NavIcons h2 {
@@ -336,8 +330,6 @@ footer {
 
 
 
-
-
 /*------------BOLLYWOOD ----------------------============
 ===============================================================*/
 
@@ -354,12 +346,10 @@ footer {
 .maindiv {
   display: flex;
   gap: 5vw;
-  border: 4px solid green;
   width: 100%;
 }
 
 .Imagemain {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   gap: 5vh;
@@ -394,7 +384,6 @@ footer {
 .TopMain2 {
   width: 41vw;
   height: 515vh;
-  border: 2px solid blue;
   display: flex;
   flex-direction: column;
   gap: 5vh;
@@ -426,7 +415,6 @@ footer {
 }
 
 .ArticletextAllone1 {
-  border: 2px solid black;
   height: 19vh;
   width: 41vw;
   font-size: 14px;
@@ -458,7 +446,6 @@ footer {
 }
 
 .topsmallimg {
-  border: 2px solid red;
   height: 20vh;
   width: 16vw;
 }
@@ -467,11 +454,9 @@ footer {
   font-size: 1em;
 }
 
-
 .Top2Text {
   width: 16vw;
   font-size: 13px;
-  border: 2px solid green;
 }
 
 
@@ -503,12 +488,60 @@ footer {
 /*===========================NAVIGATE PAGE DESIGNE==============
 ==================================================*/
 .ParentTop {
-  border: 2px solid slateblue;
+  /* border: 2px solid slateblue; */
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.detail h1 {
+  text-align: center;
+  font-size: 35px;
+  color: #02293b;
+}
+
+.detail h1:hover {
+  color: #7aced4;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.NavigateImg {
+  height: 54vh;
+  width: 48vw;
+  box-shadow: 4px 4px 4px 4px gray;
+  border-radius: 5%;
+}
+
+.NavigateImg:hover {
+  box-shadow: 4px 4px 4px 4px seagreen;
 }
 
 
+.navitext {
+  font-size: 22px;
+  text-align: center;
+  color: #081d1f;
+  text-shadow: 2px 2px rgb(103, 157, 177);
+}
 
+.text4 {}
 
+/*
+-----lateset text--------
+.text {
+  height: 16vh;
+  width: 33vw;
+
+}
+
+*/
 /*-------------------MEDIA QUERRY ---------------------------
 ==========================================================
 ---------------------------------------------------*/
@@ -571,16 +604,17 @@ footer {
 
   .The {
     rotate: 270deg;
-    font-size: 25px;
+    font-size: 2em;
     position: absolute;
     left: 30%;
-    top: 7vh;
+    top: 4vh;
   }
 
   .Siren {
-    font-size: 45px;
+    font-size: 3em;
     position: absolute;
     left: 42%;
+    top: -2vh;
 
   }
 
@@ -588,7 +622,6 @@ footer {
     flex-direction: column;
     gap: 4vh;
     height: 125vh;
-    border: 3px solid black;
   }
 
   .GADAR2-img img {
@@ -599,7 +632,6 @@ footer {
   .top-img {
     height: 70vh;
     width: 100%;
-    border: 2px solid orangered;
   }
 
   .top-img img {
@@ -609,10 +641,9 @@ footer {
 
   /*------------the latest---------------*/
   .LatestDiv {
-    border: 3px solid rgb(11, 179, 11);
     flex-direction: column;
     justify-content: start;
-    height: 180vh;
+    height: 200vh;
     width: 100%;
   }
 
@@ -642,15 +673,13 @@ footer {
   }
 
   .ArticleContainer {
-    height: 410vh;
+    height: 415vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(101, 37, 165);
   }
 
   .secondcolum {
-    border: 3px solid green;
     height: 260vh;
     width: 100%;
   }
@@ -668,6 +697,7 @@ footer {
   .Articletext {
     font-size: 13px;
     width: 40vw;
+    height: 29vh;
   }
 
   .largeimg {
@@ -678,8 +708,7 @@ footer {
   /*-----------advertisment coulmn-----------------*/
 
   .thirdcolumn {
-    border: 2px solid rgb(80, 23, 13);
-    height: 148vh;
+    height: 240vh;
     width: 100%;
   }
 
@@ -691,8 +720,7 @@ footer {
   ============================================*/
 
   .Toppost {
-    border: 3px solid red;
-    height: 146vh;
+    height: 155vh;
     width: 100%;
   }
 
@@ -723,7 +751,6 @@ footer {
     justify-content: start;
     height: 160vh;
     width: 100%;
-    border: 3px solid blue;
   }
 
   .last {
@@ -737,16 +764,15 @@ footer {
 
   /*---------------------FOOTER DESIGN--------------------*/
   footer {
-    background-color: #4db4bb;
     padding: 20px 0px;
     width: 100%;
+    height: 38vh;
   }
 
   .NavIcons {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 10px;
 
   }
 
@@ -758,7 +784,7 @@ footer {
   .leftNav {
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .icons h2 {
@@ -785,12 +811,10 @@ footer {
     flex-direction: column;
     top: 26vh;
     height: 632vh;
-    border: 2px solid green;
     width: 100%;
   }
 
   .Imagemain {
-    border: 2px solid red;
     height: 390vh;
     width: 99%;
 
@@ -819,7 +843,6 @@ footer {
   .TopMain2 {
     width: 99%;
     height: 240vh;
-    border: 2px solid blue;
   }
 
   .Top {
@@ -831,7 +854,6 @@ footer {
     flex-direction: column;
     height: 70vh;
     gap: 3vh;
-    border: 2px solid yellowgreen;
   }
 
   .singleImageForAll {
@@ -892,6 +914,458 @@ footer {
   .Advertise {
     display: none;
   }
+
+  /*===========================NAVIGATE PAGE DESIGNE==============
+==================================================*/
+  .ParentTop {
+    border: 2px solid slateblue;
+  }
+
+  .detail {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  /* .detail h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #02293b;
+  } */
+
+  /* .name {
+    font-size: 22px;
+  } */
+
+  .NavigateImg {
+    height: 54vh;
+    width: 98%;
+  }
+
+  .navtext {
+    font-size: 18px;
+  }
+
+  /*-----lateset text--------*/
+  .text {
+    height: 20vh;
+    width: 99%;
+
+  }
+}
+
+
+/*-------------------MEDIA QUERRY ---------------------------
+===========================Media QUERRY===============================
+---------------------------------------------------===============
+========================================================*/
+
+@media (max-width: 990px) and (min-width:760px) {
+  /*---------HOME PAGE---------*/
+
+  /*-------Three images-----------*/
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .head {
+    background: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 60px;
+    height: 10vh;
+    width: 15vw;
+  }
+
+
+  .linktag {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(207, 190, 190);
+    text-align: center;
+  }
+
+  .navtxt {
+    color: #044563;
+  }
+
+  .navtxt:hover {
+    color: antiquewhite;
+    background-color: palevioletred;
+  }
+
+  .linktag2 {
+    display: none;
+  }
+
+  .hambuger-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7aced4;
+  }
+
+  .navbar {
+    background: none;
+  }
+
+  /*------------------THE SERIN--------------------------*/
+  .head {
+    width: 100%;
+    height: 15vh;
+  }
+
+  .The {
+    font-size: 38px;
+    left: 35%;
+    top: 6vh;
+  }
+
+  .Siren {
+    font-size: 58px;
+    left: 42%;
+    top: -3vh;
+  }
+
+  .MAIN-IMAGE {
+    flex-direction: column;
+    gap: 4vh;
+    height: 125vh;
+  }
+
+  .GADAR2-img img {
+    height: 48vh;
+    width: 98%;
+  }
+
+  .top-img {
+    height: 70vh;
+    width: 100%;
+  }
+
+  .top-img img {
+    height: 32vh;
+    width: 98%;
+  }
+
+  /*------------the latest---------------========
+  =================================*/
+  .LatestDiv {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200vh;
+    width: 100%;
+  }
+
+  .latestimage {
+    width: 98%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgb(5, 73, 73);
+  }
+
+  .Latest-txt-head {
+    font-size: 34px;
+  }
+
+  .Latest-txt {
+    color: grey;
+    font-size: 22px;
+    width: 96%;
+  }
+
+  .HomeLatest {
+    text-align: center;
+  }
+
+  /*------LATEST ARTICLE SECTION----------------*/
+
+  .Article-head {
+    font-size: 3rem;
+  }
+
+  .ArticleContainer {
+    height: 410vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondcolum {
+    height: 260vh;
+    width: 100%;
+  }
+
+  .Article {
+    height: 30vh;
+    width: 98%;
+  }
+
+  .Articleimages {
+    height: 29.6vh;
+    width: 49vw;
+  }
+
+  .Articletext {
+    font-size: 22px;
+    width: 40vw;
+    height: 29vh;
+  }
+
+  .largeimg {
+    height: 45vh;
+    width: 98%;
+  }
+
+  /*-----------advertisment coulmn-----------------*/
+
+  .thirdcolumn {
+    height: 210vh;
+    width: 100%;
+  }
+
+  .Advertisement {
+    display: none;
+  }
+
+  /*----------------TOP POST------------------------
+  ============================================*/
+
+  .Toppost {
+    height: 148vh;
+    width: 100%;
+  }
+
+  .toparticle {
+    width: 97%;
+    height: 28vh;
+  }
+
+  .TopArticleimg {
+    height: 27.5vh;
+    width: 50vw;
+  }
+
+  .textt {
+    width: 24vw;
+    font-size: 22px;
+  }
+
+
+  /*-------------------latest stories---------------*/
+
+
+  .Storiehead {
+    font-size: 48px;
+  }
+
+  .StoriesDiv {
+    flex-direction: column;
+    justify-content: start;
+    height: 170vh;
+    width: 100%;
+  }
+
+  .last {
+    font-size: 30px;
+    color: gray;
+  }
+
+  .last p {
+    width: 95%;
+    font-size: 22px;
+  }
+
+  /*---------------------FOOTER DESIGN--------------------*/
+  footer {
+    background-color: #4db4bb;
+    padding: 20px 0px;
+    width: 100%;
+  }
+
+  .NavIcons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+
+  }
+
+  .NavIcons h2 {
+    font-size: 32px;
+    margin: 0px 5px;
+  }
+
+  .leftNav {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .icons h2 {
+    font-size: 35px;
+  }
+
+  .footer-content {
+    font-size: 17px;
+  }
+
+
+  /*------------BOLLYWOOD ----------------------===============
+  ===============================================================
+  =========================================*/
+
+
+  .headingcompo {
+    top: 35vh;
+    font-size: 45px;
+  }
+
+  .maindiv {
+    display: flex;
+    flex-direction: column;
+    top: 26vh;
+    height: 622vh;
+    width: 100%;
+  }
+
+  .Imagemain {
+    height: 390vh;
+    width: 99%;
+
+  }
+
+  .Container1 {
+    flex-direction: column;
+    height: 23vh;
+    width: 98%;
+  }
+
+  .AllImages {
+    height: 22.5vh;
+    width: 45vw;
+  }
+
+  .AllText {
+    width: 44vw;
+    height: 100%;
+    font-size: 22px;
+
+  }
+
+  /*--------------------Top main2 RIGHT---------------*/
+
+  .TopMain2 {
+    width: 99%;
+    height: 240vh;
+  }
+
+  .Top {
+    font-size: 48px;
+  }
+
+  .ArticleAllOne {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    gap: 3vh;
+  }
+
+  .singleImageForAll {
+    height: 50vh;
+    width: 98%;
+    box-shadow: 3px 3px 3px 3px gray;
+  }
+
+  /* .Top2Text {
+    width: 60vw;
+    height: 20vh;
+  } */
+
+  .ArticletextAllone1 {
+    height: 13vh;
+    width: 99%;
+    font-size: 20px;
+    gap: 8vw;
+  }
+
+  .bigno {
+    font-size: 40px;
+  }
+
+  /*-----TOP2 KI SERIES-------------*/
+
+  .toppostdiv {
+    gap: 5vh;
+    height: 20vh;
+    width: 98%;
+  }
+
+  .Top2series {
+    height: 21vh;
+    width: 99%;
+    gap: 3.5vw;
+  }
+
+  .topsmallimg {
+    height: 19vh;
+    width: 45vw;
+    box-shadow: 2px 2px 2px 2px gray;
+  }
+
+
+  .Top2Text {
+    width: 33vw;
+    font-size: 20px;
+  }
+
+  .number {
+    font-size: 20px;
+  }
+
+  .Advertise {
+    display: none;
+  }
+
+  /*===========================NAVIGATE PAGE DESIGNE==============
+==================================================*/
+  .ParentTop {
+    border: 2px solid slateblue;
+  }
+
+  .detail {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  /* .detail h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #02293b;
+  } */
+
+  /* .name {
+    font-size: 22px;
+  } */
+
+  .NavigateImg {
+    height: 54vh;
+    width: 98%;
+  }
+
+  .navtext {
+    font-size: 18px;
+  }
+
+  /*-----lateset text--------*/
+  .text {
+    height: 20vh;
+    width: 99%;
+
+  }
+
+
+
 
 
 

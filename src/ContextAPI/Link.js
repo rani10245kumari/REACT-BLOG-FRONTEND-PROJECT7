@@ -58,9 +58,18 @@ function RoutingCom() {
                     <footer>
                         <div className="NavIcons">
                             <div className="leftNav">
-                                <p>Home</p>
-                                <p>About</p>
-                                <p>Contact</p>
+                                <h5>Home</h5>
+                                <h5>About
+                                    <p style={{ fontSize: '6px', width: '22vw', height: '14vh' }}>
+                                        The page is broken into three sections, making it easy to digest in chunks. This format is a perfect way to set up your page because it guides the reader slowly down in a way that isn’t overwhelming.
+                                        <br />
+                                        Each section is designed to hook the reader and bait them into reading a little more. Finally, the page ends with John and Jai’s signature, giving it a personal touch from the founders, who you feel like you can now call friends.
+                                    </p>
+                                </h5>
+                                <h5>Contact
+                                    <p style={{ fontSize: '10px' }}>ranik10245@gmail.com</p>
+                                    <p style={{ fontSize: '10px' }}>Toll-Free no- 6207598230</p>
+                                </h5>
                             </div>
                             <p className="footer-content">&copy; 2023 Rani kumari</p>
                             <div className="icons">
