@@ -4,7 +4,8 @@
 }
 
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
+  margin: 0%;
 }
 
 a {
@@ -23,7 +24,7 @@ a {
   rotate: 270deg;
   font-size: 2em;
   position: absolute;
-  left: 42%;
+  left: 43%;
   top: 7vh;
 }
 
@@ -31,7 +32,7 @@ a {
   font-size: 3.2em;
   position: absolute;
   left: 48%;
-  top: -4vh;
+  top: -3vh;
 }
 
 /*==============================NAVBAR==============================*/
@@ -192,7 +193,6 @@ a {
   font-size: 15px;
   width: 25vw;
   height: 33vh;
-  border: 2px solid rgb(83, 32, 83);
 }
 
 /* .Latestimage2 {
@@ -626,7 +626,7 @@ footer {
 
   .GADAR2-img img {
     height: 48vh;
-    width: 98%;
+    width: 99%;
   }
 
   .top-img {
@@ -636,7 +636,7 @@ footer {
 
   .top-img img {
     height: 32vh;
-    width: 98%;
+    width: 99%;
   }
 
   /*------------the latest---------------*/
@@ -659,7 +659,7 @@ footer {
 
   .Latest-txt {
     font-size: 14px;
-    width: 95%;
+    width: 96%;
   }
 
   .HomeLatest {
@@ -686,7 +686,7 @@ footer {
 
   .Article {
     height: 30vh;
-    width: 98%;
+    width: 99%;
   }
 
   .Articleimages {
@@ -702,7 +702,7 @@ footer {
 
   .largeimg {
     height: 45vh;
-    width: 98%;
+    width: 99%;
   }
 
   /*-----------advertisment coulmn-----------------*/
@@ -749,7 +749,7 @@ footer {
   .StoriesDiv {
     flex-direction: column;
     justify-content: start;
-    height: 160vh;
+    height: 165vh;
     width: 100%;
   }
 
@@ -766,7 +766,7 @@ footer {
   footer {
     padding: 20px 0px;
     width: 100%;
-    height: 38vh;
+    height: 34vh;
   }
 
   .NavIcons {
@@ -786,6 +786,7 @@ footer {
     flex-direction: column;
     font-size: 14px;
   }
+
 
   .icons h2 {
     font-size: 28px;
@@ -1350,7 +1351,7 @@ footer {
 
   .NavigateImg {
     height: 54vh;
-    width: 98%;
+    width: 99%;
   }
 
   .navtext {
