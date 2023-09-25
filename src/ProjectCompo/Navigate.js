@@ -20,57 +20,11 @@ const Navigate = () => {
     return (
         <div>
             <div className="ParentTop">
-                {/* <div className="leftDetail">
-                    <div className="Like">
-                        <h2>
-                            <i className="fa-solid fa-thumbs-up"></i>
-                            LIKE...
-                        </h2>
-                        <h2>
-                            <i className="fa-solid fa-share-nodes"></i>SHARE...
-                        </h2>
-                    </div>
-                </div> */}
                 <div className="detail">
                     <h1>{selectedItem.name}</h1>
                     <h1>{selectedItem.title}</h1>
                     <div className="Profile">
-                        <div className="Prof">
-                            <h4>
-                                <i className="fa-solid fa-user">
-                                    <span className="name">Rani Kumari</span>
-                                </i>
-                            </h4>
-                        </div>
-                        {/* <div className="icons">
-                            <h2>
-                                <a
-                                    href=""
-                                    rel="noreferrer"
-                                    target="_blank"
-                                >
-                                    <i class="fa-brands fa-square-instagram"></i>
-                                </a>
-                            </h2>
-                            <h2>
-                                <a
-                                    href="https://github.com/Shriyansh7870"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <i className="fa-brands fa-github"></i>{" "}
-                                </a>
-                            </h2>
-                            <h2>
-                                <a
-                                    href="https://www.linkedin.com/in/shri7870/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <i className="fa-brands fa-facebook"></i>
-                                </a>
-                            </h2>
-                        </div> */}
+                        <h4 className="name"> Rani Kumari </h4>
                     </div>
                     <img
                         className="NavigateImg"

@@ -16,6 +16,9 @@ function RoutingCom() {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+    const closenavigate = () => {
+        setIsOpen(false);
+    }
 
     return (
         <>
@@ -34,12 +37,12 @@ function RoutingCom() {
                     <Router>
                         <div className='nav'>
                             <div className={isOpen ? "linktag" : "linktag2"}>
-                                <Link to="/" className='navtxt'>Home</Link>
-                                <Link to="/Hollywood" className='navtxt'>Hollywood</Link>
-                                <Link to="/Bollywood" className='navtxt'>Bollywood</Link>
-                                <Link to="/Food" className='navtxt'>Food</Link>
-                                <Link to="/Technology" className='navtxt'>Technology</Link>
-                                <Link to="/Fitness" className='navtxt'>Fitness</Link>
+                                <Link to="/" className='navtxt' onClick={closenavigate}>Home</Link>
+                                <Link to="/Hollywood" className='navtxt' onClick={closenavigate}>Hollywood</Link>
+                                <Link to="/Bollywood" className='navtxt' onClick={closenavigate}>Bollywood</Link>
+                                <Link to="/Food" className='navtxt' onClick={closenavigate}>Food</Link>
+                                <Link to="/Technology" className='navtxt' onClick={closenavigate}>Technology</Link>
+                                <Link to="/Fitness" className='navtxt' onClick={closenavigate}>Fitness</Link>
                             </div>
                         </div>
 
@@ -58,12 +61,12 @@ function RoutingCom() {
                     <footer>
                         <div className="NavIcons">
                             <div className="leftNav">
-                                <h5>Home</h5>
+
                                 <h5>About
                                     <p style={{ fontSize: '6px', width: '22vw', height: '14vh' }}>
-                                        The page is broken into three sections, making it easy to digest in chunks. This format is a perfect way to set up your page because it guides the reader slowly down in a way that isn’t overwhelming.
+                                        The page is broken into Five sections, making it easy to digest in chunks. This format is a perfect way to set up your page because it guides the reader slowly down in a way that isn’t overwhelming.
                                         <br />
-                                        Each section is designed to hook the reader and bait them into reading a little more. Finally, the page ends with John and Jai’s signature, giving it a personal touch from the founders, who you feel like you can now call friends.
+                                        Each section is designed to hook the reader and bait them into reading a little more.
                                     </p>
                                 </h5>
                                 <h5>Contact

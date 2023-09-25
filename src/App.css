@@ -294,7 +294,7 @@ a {
 
 /*---------------------FOOTER DESIGN--------------------*/
 footer {
-  background-color: #34a5ad;
+  background-color: #49979b;
   padding: 20px 0px;
   width: 100%;
 }
@@ -456,13 +456,13 @@ footer {
 
 .Top2Text {
   width: 16vw;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 
 .Advertise {
   box-shadow: 3px 3px 3px 3px gray;
-  height: 240vh;
+  height: 212vh;
   width: 40vw;
   color: rgb(87, 86, 86);
   margin-top: 20%;
@@ -487,9 +487,9 @@ footer {
 
 /*===========================NAVIGATE PAGE DESIGNE==============
 ==================================================*/
-.ParentTop {
-  /* border: 2px solid slateblue; */
-}
+/* .ParentTop {
+  border: 2px solid slateblue;
+} */
 
 .detail {
   display: flex;
@@ -500,7 +500,7 @@ footer {
 
 .detail h1 {
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
   color: #02293b;
 }
 
@@ -686,7 +686,7 @@ footer {
 
   .Article {
     height: 30vh;
-    width: 99%;
+    width: 98%;
   }
 
   .Articleimages {
@@ -764,27 +764,27 @@ footer {
 
   /*---------------------FOOTER DESIGN--------------------*/
   footer {
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     width: 100%;
-    height: 34vh;
+    height: 35vh;
   }
 
   .NavIcons {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
   }
 
   .NavIcons h2 {
-    font-size: 32px;
-    margin: 0px 5px;
+    font-size: 22px;
+    margin: 0px 3px;
   }
 
   .leftNav {
     display: flex;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 12px;
+    height: 24vh;
   }
 
 
@@ -793,7 +793,7 @@ footer {
   }
 
   .footer-content {
-    font-size: 17px;
+    font-size: 18px;
   }
 
 
@@ -811,13 +811,13 @@ footer {
     display: flex;
     flex-direction: column;
     top: 26vh;
-    height: 632vh;
+    height: 603vh;
     width: 100%;
   }
 
   .Imagemain {
     height: 390vh;
-    width: 99%;
+    width: 98%;
 
   }
 
@@ -870,7 +870,7 @@ footer {
 
   .ArticletextAllone1 {
     height: 13vh;
-    width: 99%;
+    width: 98%;
     font-size: 12px;
     gap: 8vw;
   }
@@ -918,9 +918,6 @@ footer {
 
   /*===========================NAVIGATE PAGE DESIGNE==============
 ==================================================*/
-  .ParentTop {
-    border: 2px solid slateblue;
-  }
 
   .detail {
     width: 100%;
@@ -1138,7 +1135,7 @@ footer {
   }
 
   .toparticle {
-    width: 97%;
+    width: 98%;
     height: 28vh;
   }
 
@@ -1232,7 +1229,7 @@ footer {
 
   .Imagemain {
     height: 390vh;
-    width: 99%;
+    width: 98%;
 
   }
 
@@ -1257,7 +1254,7 @@ footer {
   /*--------------------Top main2 RIGHT---------------*/
 
   .TopMain2 {
-    width: 99%;
+    width: 98%;
     height: 240vh;
   }
 
@@ -1285,7 +1282,7 @@ footer {
 
   .ArticletextAllone1 {
     height: 13vh;
-    width: 99%;
+    width: 98%;
     font-size: 20px;
     gap: 8vw;
   }
@@ -1330,9 +1327,6 @@ footer {
 
   /*===========================NAVIGATE PAGE DESIGNE==============
 ==================================================*/
-  .ParentTop {
-    border: 2px solid slateblue;
-  }
 
   .detail {
     width: 100%;
