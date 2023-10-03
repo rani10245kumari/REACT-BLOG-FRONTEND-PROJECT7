@@ -162,6 +162,7 @@ a {
   width: 100%;
   display: flex;
   gap: 4vw;
+  justify-content: space-around;
 }
 
 .secondcolum {
