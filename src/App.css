@@ -64,7 +64,7 @@ a {
 /*-------Three images-----------*/
 .MAIN-IMAGE {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 8vw;
   height: 77vh;
   width: 100%;
@@ -79,7 +79,7 @@ a {
 }
 
 .GADAR2-img img:hover {
-  box-shadow: 4px 4px 4px 4px green;
+  box-shadow: 4px 4px 4px 4px rgb(19, 182, 19);
 }
 
 .top-img {
