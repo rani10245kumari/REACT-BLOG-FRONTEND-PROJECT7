@@ -64,6 +64,7 @@ a {
 /*-------Three images-----------*/
 .MAIN-IMAGE {
   display: flex;
+  justify-content: space-around;
   gap: 8vw;
   height: 77vh;
   width: 100%;
