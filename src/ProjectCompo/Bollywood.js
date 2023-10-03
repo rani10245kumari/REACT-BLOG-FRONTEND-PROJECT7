@@ -57,7 +57,7 @@ const Bollywood = () => {
                                 }
                             )}
                         </div>
-                        {Data.filter((item) => item.id >= 20 && item.id <= 26).map(
+                        {Data.filter((item) => item.id >= 20 && item.id <= 25).map(
                             (item, index) => {
                                 return (
                                     <div key={index} className="toppostdiv">
