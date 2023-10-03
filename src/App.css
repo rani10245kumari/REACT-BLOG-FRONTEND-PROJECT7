@@ -64,7 +64,7 @@ a {
 /*-------Three images-----------*/
 .MAIN-IMAGE {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 8vw;
   height: 77vh;
   width: 100%;
@@ -85,7 +85,7 @@ a {
 .top-img {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.6rem;
   height: 60vh;
   width: 35vw;
 }
@@ -348,7 +348,7 @@ footer {
   display: flex;
   gap: 5vw;
   width: 100%;
-
+  justify-content: center;
 }
 
 .Imagemain {
