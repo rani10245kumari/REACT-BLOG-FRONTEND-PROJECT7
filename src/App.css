@@ -31,7 +31,7 @@ a {
 .Siren {
   font-size: 3.2em;
   position: absolute;
-  left: 48%;
+  left: 49%;
   top: -3vh;
 }
 
@@ -600,6 +600,9 @@ footer {
 
   .hamburger {
     display: block;
+    font-size: 30px;
+    height: 8vh;
+    width: 12vw;
   }
 
 
@@ -652,8 +655,8 @@ footer {
   .Siren {
     font-size: 3em;
     position: absolute;
-    left: 42%;
-    top: -2vh;
+    left: 43%;
+    top: -3vh;
 
   }
 
@@ -1076,15 +1079,15 @@ footer {
   }
 
   .The {
-    font-size: 38px;
+    font-size: 44px;
     left: 35%;
-    top: 6vh;
+    top: 5vh;
   }
 
   .Siren {
-    font-size: 58px;
+    font-size: 60px;
     left: 42%;
-    top: -1vh;
+    top: -0vh;
   }
 
   .MAIN-IMAGE {

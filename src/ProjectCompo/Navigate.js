@@ -30,7 +30,7 @@ const Navigate = () => {
 
                         <div className="Profile">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZcNNV6OAX_vD3pWSsWPxWK1jFexbwmBG8fKYhq-6VFUeGWDbUo50ys1Uv-JZBPEWSmE&usqp=CAU" className="pic"
-                                alt="Not Found"></img>
+                                alt="Not Found" ></img>
                             <h4 className="name"> Rani Kumari </h4>
                         </div>
                         <div className="Socialmedia">
