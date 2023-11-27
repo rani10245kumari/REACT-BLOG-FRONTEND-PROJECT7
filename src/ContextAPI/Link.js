@@ -5,7 +5,6 @@ import Hollywood from '../ProjectCompo/Hollywood';
 import FoodCom from '../ProjectCompo/Food';
 import Homecom from '../ProjectCompo/Home';
 import Fitness from '../ProjectCompo/Fitness';
-import ConntextStore from './ContexApi';
 import Technology from '../ProjectCompo/Technology';
 import Navigate from '../ProjectCompo/Navigate';
 
@@ -45,17 +44,17 @@ function RoutingCom() {
                             </div>
                         </div>
 
-                        <ConntextStore>
-                            <Routes>
-                                <Route path='/' element={<Homecom />} />
-                                <Route path='/Bollywood' element={<Bollywood />} />
-                                <Route path='/Hollywood' element={<Hollywood />} />
-                                <Route path='/Food' element={<FoodCom />} />
-                                <Route path='/Technology' element={<Technology />} />
-                                <Route path='/Fitness' element={<Fitness />} />
-                                <Route path="/Navigate/:id" element={<Navigate />} />
-                            </Routes>
-                        </ConntextStore>
+
+                        <Routes>
+                            <Route path='/' element={<Homecom />} />
+                            <Route path='/Bollywood' element={<Bollywood />} />
+                            <Route path='/Hollywood' element={<Hollywood />} />
+                            <Route path='/Food' element={<FoodCom />} />
+                            <Route path='/Technology' element={<Technology />} />
+                            <Route path='/Fitness' element={<Fitness />} />
+                            <Route path="/Navigate/:id" element={<Navigate />} />
+                        </Routes>
+
                     </Router>
                     <footer>
                         <div className="NavIcons">

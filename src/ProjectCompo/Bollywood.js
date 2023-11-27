@@ -1,9 +1,12 @@
-import React, { useContext } from "react";
+import React, { useEffect, useState } from "react";
 import { Store } from "../ContextAPI/ContexApi";
 import { NavLink } from "react-router-dom";
+import axios from "axios";
 const Bollywood = () => {
-    const [Data] = useContext(Store);
-    console.log(Data);
+    const [Data, setData] = useState([])
+    useEffect(() => {
+        axios.get("http://localhost:5500/").then(response => { setData(response.data) })
+    })
     return (
         <>
             <h1 className="headingcompo">Bollywood Article </h1>

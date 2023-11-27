@@ -1,9 +1,11 @@
-import React, { useContext } from "react";
-import { Store } from "../ContextAPI/ContexApi";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import axios from "axios"
 const Fitness = () => {
-    const [Data] = useContext(Store);
-    console.log(Data);
+    const [Data, setData] = useState([])
+    useEffect(() => {
+        axios.get("http://localhost:5500/").then(response => { setData(response.data) })
+    })
     return (
         <>
             <h1 className="headingcompo">Fitness </h1>

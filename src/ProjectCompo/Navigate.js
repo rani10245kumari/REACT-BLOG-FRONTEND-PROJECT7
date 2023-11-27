@@ -1,9 +1,13 @@
-import React, { useContext } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams, NavLink, useNavigate } from "react-router-dom";
-import { Store } from "../ContextAPI/ContexApi";
+import axios from "axios"
+
 
 const Navigate = () => {
-    const [newitem] = useContext(Store);
+    const [newitem, setnewitem] = useState([])
+    useEffect(() => {
+        axios.get("http://localhost:5500/").then(response => { setnewitem(response.data) })
+    })
     const { id } = useParams();
     const itemId = parseInt(id);
     const navii = useNavigate()
@@ -23,8 +27,8 @@ const Navigate = () => {
         <div>
             <div className="ParentTop">
                 <div className="detail">
-                    <h1>{selectedItem.name}</h1>
-                    <h1>{selectedItem.title}</h1>
+                    <h1>{selectedItem?.name}</h1>
+                    <h1>{selectedItem?.title}</h1>
                     <div className="socialProfile">
 
 
@@ -54,18 +58,18 @@ const Navigate = () => {
                     </div>
                     <img
                         className="NavigateImg"
-                        src={selectedItem.image}
+                        src={selectedItem?.image}
                         alt="not found"
 
                     />
                     <br />
-                    <p className="navitext">{selectedItem.text}</p>
-                    <p>{selectedItem.content}</p>
+                    <p className="navitext">{selectedItem?.text}</p>
+                    <p>{selectedItem?.content}</p>
                 </div>
                 <div className="rightDetails"></div>
             </div>
             <div className="LatestDiv  navigateimg2">
-                {relatedItems.map((item, index) => (
+                {relatedItems?.map((item, index) => (
                     <div key={index} className="HomeLatest">
                         <NavLink to={`/Navigate/${item.id}`}>
                             <img className="latestimage" src={item.image} alt="Not Found" />

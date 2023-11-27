@@ -1,9 +1,12 @@
-import React, { useContext } from "react";
-import { Store } from "../ContextAPI/ContexApi";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import axios from "axios";
 
 const Homecom = () => {
-    const [Data] = useContext(Store);
+    const [Data, setData] = useState([])
+    useEffect(() => {
+        axios.get("http://localhost:5500/").then(response => { setData(response.data) })
+    })
     return (
         <div className="Container">
             <div className="MAIN-IMAGE">

@@ -1,9 +1,11 @@
-import React, { useContext } from "react";
-import { Store } from "../ContextAPI/ContexApi";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { NavLink } from "react-router-dom";
 const FoodCom = () => {
-    const [Data] = useContext(Store);
-    console.log(Data);
+    const [Data, setData] = useState([])
+    useEffect(() => {
+        axios.get("http://localhost:5500/").then(response => { setData(response.data) })
+    })
     return (
         <>
             <h1 className="headingcompo">Food </h1>
