@@ -5,7 +5,7 @@ import axios from "axios";
 const Homecom = () => {
     const [Data, setData] = useState([])
     useEffect(() => {
-        axios.get("http://localhost:5500/").then(response => { setData(response.data) })
+        axios.get("https://react-backend-project.onrender.com/").then(response => { setData(response.data) })
     })
     return (
         <div className="Container">

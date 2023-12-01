@@ -6,7 +6,7 @@ import axios from "axios"
 const Navigate = () => {
     const [newitem, setnewitem] = useState([])
     useEffect(() => {
-        axios.get("http://localhost:5500/").then(response => { setnewitem(response.data) })
+        axios.get("https://react-backend-project.onrender.com/").then(response => { setnewitem(response.data) })
     })
     const { id } = useParams();
     const itemId = parseInt(id);

@@ -4,7 +4,7 @@ import axios from "axios";
 const Bollywood = () => {
     const [Data, setData] = useState([])
     useEffect(() => {
-        axios.get("http://localhost:5500/").then(response => { setData(response.data) })
+        axios.get("https://react-backend-project.onrender.com/").then(response => { setData(response.data) })
     })
     return (
         <>
